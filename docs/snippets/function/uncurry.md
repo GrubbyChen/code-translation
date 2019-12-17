@@ -8,7 +8,7 @@ If the `length` of the provided arguments is less than `n` throw an error.
 Otherwise, call `fn` with the proper amount of arguments, using `Array.prototype.slice(0, n)`.
 Omit the second argument, `n`, to uncurry up to depth `1`.
 
-## Translate
+## 翻译
 
 取消直到n深度的函数。
 
@@ -18,7 +18,7 @@ Omit the second argument, `n`, to uncurry up to depth `1`.
 否则，使用Array.prototype.slice（0，n）用适当数量的参数调用fn。
 忽略第二个参数“ n”，以取消深度直至“ 1”。
 
-## Code
+## 代码
 
 ```js
 const uncurry = (fn, n = 1) => (...args) => {
@@ -28,16 +28,10 @@ const uncurry = (fn, n = 1) => (...args) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 const add = x => y => z => x + y + z;
 const uncurriedAdd = uncurry(add, 3);
 uncurriedAdd(1, 2, 3); // 6
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

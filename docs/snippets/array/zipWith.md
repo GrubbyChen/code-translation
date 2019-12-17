@@ -8,7 +8,7 @@ Creates an array with that length as return value and use `Array.from()` with a 
 If lengths of the argument-arrays vary, `undefined` is used where no value could be found.
 The function is invoked with the elements of each group `(...group)`.
 
-## Translate
+## 翻译
 
 创建一个元素数组，根据原始数组中的位置进行分组，并使用function作为最后一个值来指定应如何组合分组的值。
 
@@ -18,7 +18,7 @@ The function is invoked with the elements of each group `(...group)`.
 如果参数数组的长度不同，则在找不到值的地方使用“ undefined”。
 该函数由每个组（... group）的元素调用。
 
-## Code
+## 代码
 
 ```js
 const zipWith = (...array) => {
@@ -29,7 +29,7 @@ const zipWith = (...array) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 zipWith([1, 2], [10, 20], [100, 200], (a, b, c) => a + b + c); // [111,222]
@@ -40,9 +40,3 @@ zipWith(
   (a, b, c) => (a != null ? a : 'a') + (b != null ? b : 'b') + (c != null ? c : 'c')
 ); // [111, 222, '3bc']
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

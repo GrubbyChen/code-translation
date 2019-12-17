@@ -8,7 +8,7 @@ Use `Array.prototype.filter()` to filter the items where the `id` matches the `l
 Omit the second argument, `id`, to default to `null` which indicates the object is not linked to another one (i.e. it is a top level object).
 Omit the third argument, `link`, to use `'parent_id'` as the default property which links the object to another one by its `id`.
 
-## Translate
+## 翻译
 
 给定一组相互链接的平面对象，它将以递归方式嵌套它们。
 对于嵌套注释（例如reddit.com上的注释）很有用。
@@ -18,7 +18,7 @@ Omit the third argument, `link`, to use `'parent_id'` as the default property wh
 省略第二个参数“ id”，默认为“ null”，这表示该对象未链接到另一个（即它是顶级对象）。
 省略第三个参数“ link”，以使用“ parent_id”作为默认属性，该默认属性通过“ id”将对象链接到另一个对象。
 
-## Code
+## 代码
 
 ```js
 const nest = (items, id = null, link = 'parent_id') =>
@@ -27,7 +27,7 @@ const nest = (items, id = null, link = 'parent_id') =>
     .map(item => ({ ...item, children: nest(items, item.id) }));
 ```
 
-## Example
+## 例子
 
 ```js
 // One top level comment
@@ -40,9 +40,3 @@ const comments = [
 ];
 const nestedComments = nest(comments); // [{ id: 1, parent_id: null, children: [...] }]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

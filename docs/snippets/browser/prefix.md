@@ -5,14 +5,14 @@ Returns the prefixed version (if necessary) of a CSS property that the browser s
 Use `Array.prototype.findIndex()` on an array of vendor prefix strings to test if `document.body` has one of them defined in its `CSSStyleDeclaration` object, otherwise return `null`.
 Use `String.prototype.charAt()` and `String.prototype.toUpperCase()` to capitalize the property, which will be appended to the vendor prefix string.
 
-## Translate
+## 翻译
 
 返回浏览器支持的CSS属性的前缀版本（如有必要）。
 
 在供应商前缀字符串数组上使用Array.prototype.findIndex（）来测试document.body是否在CSSStyleDeclaration对象中定义了其中之一，否则返回null。
 使用`String.prototype.charAt（）`和`String.prototype.toUpperCase（）`将属性大写，该属性将追加到供应商前缀字符串中。
 
-## Code
+## 代码
 
 ```js
 const prefix = prop => {
@@ -25,14 +25,8 @@ const prefix = prop => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 prefix('appearance'); // 'appearance' on a supported browser, otherwise 'webkitAppearance', 'mozAppearance', 'msAppearance' or 'oAppearance'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

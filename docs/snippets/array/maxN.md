@@ -7,7 +7,7 @@ Use `Array.prototype.sort()` combined with the spread operator (`...`) to create
 Use `Array.prototype.slice()` to get the specified number of elements.
 Omit the second argument, `n`, to get a one-element array.
 
-## Translate
+## 翻译
 
 从提供的数组中返回最大n个元素。
 如果`n`大于或等于提供的数组长度，则返回原始数组（降序排列）。
@@ -16,21 +16,15 @@ Omit the second argument, `n`, to get a one-element array.
 使用Array.prototype.slice（）获取指定数量的元素。
 省略第二个参数n，以获取一个单元素数组。
 
-## Code
+## 代码
 
 ```js
 const maxN = (arr, n = 1) => [...arr].sort((a, b) => b - a).slice(0, n);
 ```
 
-## Example
+## 例子
 
 ```js
 maxN([1, 2, 3]); // [3]
 maxN([1, 2, 3], 2); // [3,2]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

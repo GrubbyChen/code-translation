@@ -6,7 +6,7 @@ Use `String.prototype.split(';')` to separate key-value pairs from each other.
 Use `Array.prototype.map()` and `String.prototype.split('=')` to separate keys from values in each pair.
 Use `Array.prototype.reduce()` and `decodeURIComponent()` to create an object with all key-value pairs.
 
-## Translate
+## 翻译
 
 解析HTTP Cookie标头字符串，并返回所有cookie名称-值对的对象。
 
@@ -14,7 +14,7 @@ Use `Array.prototype.reduce()` and `decodeURIComponent()` to create an object wi
 使用“ Array.prototype.map（）”和“ String.prototype.split（'='）`将键与每对值分开。
 使用Array.prototype.reduce（）和decodeURIComponent（）创建具有所有键值对的对象。
 
-## Code
+## 代码
 
 ```js
 const parseCookie = str =>
@@ -27,14 +27,8 @@ const parseCookie = str =>
     }, {});
 ```
 
-## Example
+## 例子
 
 ```js
 parseCookie('foo=bar; equation=E%3Dmc%5E2'); // { foo: 'bar', equation: 'E=mc^2' }
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -6,7 +6,7 @@ Use `readFileSync` function in `fs` node package to create a `Buffer` from a fil
 convert buffer to string using `toString(encoding)` function.
 creating an array from contents of file by `split`ing file content line by line (each `\n`).
 
-## Translate
+## 翻译
 
 返回指定文件中的行数组。
 
@@ -14,7 +14,7 @@ creating an array from contents of file by `split`ing file content line by line 
 使用toString（encoding）函数将缓冲区转换为字符串。
 通过逐行拆分文件内容（每个\ n）从文件内容创建数组。
 
-## Code
+## 代码
 
 ```js
 const fs = require('fs');
@@ -25,7 +25,7 @@ const readFileLines = filename =>
     .split('\n');
 ```
 
-## Example
+## 例子
 
 ```js
 /*
@@ -38,9 +38,3 @@ contents of test.txt :
 let arr = readFileLines('test.txt');
 console.log(arr); // ['line1', 'line2', 'line3']
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

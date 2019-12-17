@@ -7,7 +7,7 @@ Omit the second argument, `index`, to start at `0`.
 Omit the third argument, `delCount`, to remove `0` elements.
 Omit the fourth argument, `elements`, in order to not add any new elements.
 
-## Translate
+## 翻译
 
 具有与[`Array.prototype.splice（）`] [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice）相同的功能，但返回一个新的而不是更改原始数组。
 
@@ -16,7 +16,7 @@ Omit the fourth argument, `elements`, in order to not add any new elements.
 省略第三个参数“ delCount”，以删除“ 0”个元素。
 省略第四个参数`elements`，以便不添加任何新元素。
 
-## Code
+## 代码
 
 ```js
 const shank = (arr, index = 0, delCount = 0, ...elements) =>
@@ -26,7 +26,7 @@ const shank = (arr, index = 0, delCount = 0, ...elements) =>
     .concat(arr.slice(index + delCount));
 ```
 
-## Example
+## 例子
 
 ```js
 const names = ['alpha', 'bravo', 'charlie'];
@@ -34,9 +34,3 @@ const namesAndDelta = shank(names, 1, 0, 'delta'); // [ 'alpha', 'delta', 'bravo
 const namesNoBravo = shank(names, 1, 1); // [ 'alpha', 'charlie' ]
 console.log(names); // ['alpha', 'bravo', 'charlie']
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

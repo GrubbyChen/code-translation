@@ -6,7 +6,7 @@ Use the `FormData` constructor to convert the HTML `form` to `FormData`, `Array.
 Use `Array.prototype.map()` and `window.encodeURIComponent()` to encode each field's value.
 Use `Array.prototype.join()` with appropriate argumens to produce an appropriate query string.
 
-## Translate
+## 翻译
 
 将一组表单元素编码为查询字符串。
 
@@ -14,21 +14,15 @@ Use `Array.prototype.join()` with appropriate argumens to produce an appropriate
 使用Array.prototype.map（）和window.encodeURIComponent（）编码每个字段的值。
 将Array.prototype.join（）与适当的参数一起使用以产生适当的查询字符串。
 
-## Code
+## 代码
 
 ```js
 const serializeForm = form =>
   Array.from(new FormData(form), field => field.map(encodeURIComponent).join('=')).join('&');
 ```
 
-## Example
+## 例子
 
 ```js
 serializeForm(document.querySelector('#form')); // email=test%40email.com&name=Test%20Name
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -7,7 +7,7 @@ Use `Function.prototype.apply()` to apply the `this` context to the function and
 Use `Date.now()` to keep track of the last time the throttled function was invoked.
 Omit the second argument, `wait`, to set the timeout at a default of 0 ms.
 
-## Translate
+## 翻译
 
 创建一个受限制的函数，每“等待”毫秒最多只能调用一次提供的函数
 
@@ -16,7 +16,7 @@ Omit the second argument, `wait`, to set the timeout at a default of 0 ms.
 使用`Date.now（）`来跟踪上一次调用受限制的函数的时间。
 省略第二个参数“ wait”，将超时设置为默认值0 ms。
 
-## Code
+## 代码
 
 ```js
 const throttle = (fn, wait) => {
@@ -41,7 +41,7 @@ const throttle = (fn, wait) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 window.addEventListener(
@@ -52,9 +52,3 @@ window.addEventListener(
   }, 250)
 ); // Will log the window dimensions at most every 250ms
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

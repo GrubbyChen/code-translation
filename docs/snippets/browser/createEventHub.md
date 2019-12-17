@@ -8,7 +8,7 @@ For `on`, create an array for the event if it does not yet exist, then use `Arra
 to the array.
 For `off`, use `Array.prototype.findIndex()` to find the index of the handler in the event array and remove it using `Array.prototype.splice()`.
 
-## Translate
+## 翻译
 
 使用`emit`，`on`和`off`方法创建一个pub / sub（[publish-subscribe]（https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern））事件中心。
 
@@ -18,7 +18,7 @@ For `off`, use `Array.prototype.findIndex()` to find the index of the handler in
 到阵列。
 对于“ off”，使用“ Array.prototype.findIndex（）”在事件数组中查找处理程序的索引，然后使用“ Array.prototype.splice（）”将其删除。
 
-## Code
+## 代码
 
 ```js
 const createEventHub = () => ({
@@ -38,7 +38,7 @@ const createEventHub = () => ({
 });
 ```
 
-## Example
+## 例子
 
 ```js
 const handler = data => console.log(data);
@@ -58,9 +58,3 @@ hub.emit('increment'); // `increment` variable is now 1
 // Unsubscribe: stop a specific handler from listening to the 'message' event
 hub.off('message', handler);
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

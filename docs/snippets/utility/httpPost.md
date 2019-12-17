@@ -9,7 +9,7 @@ Handle the `onerror` event, by running the provided `err` function.
 Omit the third argument, `data`, to send no data to the provided `url`.
 Omit the fourth argument, `err`, to log errors to the console's `error` stream by default.
 
-## Translate
+## 翻译
 
 向传递的URL发出POST请求。
 
@@ -20,7 +20,7 @@ Omit the fourth argument, `err`, to log errors to the console's `error` stream b
 省略第三个参数“ data”，以不将任何数据发送到提供的“ url”。
 省略第四个参数“ err”，默认情况下会将错误记录到控制台的“ error”流中。
 
-## Code
+## 代码
 
 ```js
 const httpPost = (url, data, callback, err = console.error) => {
@@ -33,7 +33,7 @@ const httpPost = (url, data, callback, err = console.error) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 const newPost = {
@@ -65,9 +65,3 @@ Logs: {
 }
 */
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -6,7 +6,7 @@ Use `Array.from()` to create a new array, that fits the number of chunks that wi
 Use `Array.prototype.slice()` to map each element of the new array to a chunk the length of `size`.
 If the original array can't be split evenly, the final chunk will contain the remaining elements.
 
-## Translate
+## 翻译
 
 将数组分成指定大小的较小数组。
 
@@ -14,7 +14,7 @@ If the original array can't be split evenly, the final chunk will contain the re
 使用Array.prototype.slice（）将新数组的每个元素映射到大小为size的块上。
 如果原始数组无法平均分割，则最后一块将包含其余元素。
 
-## Code
+## 代码
 
 ```js
 const chunk = (arr, size) =>
@@ -23,14 +23,8 @@ const chunk = (arr, size) =>
   );
 ```
 
-## Example
+## 例子
 
 ```js
 chunk([1, 2, 3, 4, 5], 2); // [[1,2],[3,4],[5]]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

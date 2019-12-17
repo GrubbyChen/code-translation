@@ -9,7 +9,7 @@ For each element in the given array, create all the partial permutations for the
 Use `Array.prototype.map()` to combine the element with each partial permutation, then `Array.prototype.reduce()` to combine all permutations in one array.
 Base cases are for array `length` equal to `2` or `1`.
 
-## Translate
+## 翻译
 
 生成数组元素的所有排列（包含重复项）。
 
@@ -20,7 +20,7 @@ Base cases are for array `length` equal to `2` or `1`.
 使用“ Array.prototype.map（）”将元素与每个部分排列组合，然后使用“ Array.prototype.reduce（）”将所有排列组合在一个数组中。
 基本情况是数组“ length”等于“ 2”或“ 1”。
 
-## Code
+## 代码
 
 ```js
 const permutations = arr => {
@@ -35,14 +35,8 @@ const permutations = arr => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 permutations([1, 33, 5]); // [ [ 1, 33, 5 ], [ 1, 5, 33 ], [ 33, 1, 5 ], [ 33, 5, 1 ], [ 5, 1, 33 ], [ 5, 33, 1 ] ]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

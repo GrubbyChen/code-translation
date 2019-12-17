@@ -8,7 +8,7 @@ Check if `n - k` is less than `k` and switch their values accordingly.
 Loop from `2` through `k` and calculate the binomial coefficient.
 Use `Math.round()` to account for rounding errors in the calculation.
 
-## Translate
+## 翻译
 
 计算两个整数“ n”和“ k”的二项式系数。
 
@@ -18,7 +18,7 @@ Use `Math.round()` to account for rounding errors in the calculation.
 从2到k循环并计算二项式系数。
 使用`Math.round（）`来解决计算中的舍入误差。
 
-## Code
+## 代码
 
 ```js
 const binomialCoefficient = (n, k) => {
@@ -33,14 +33,8 @@ const binomialCoefficient = (n, k) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 binomialCoefficient(8, 2); // 28
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -4,13 +4,13 @@ Hashes the input string into a whole number.
 
 Use `String.prototype.split('')` and `Array.prototype.reduce()` to create a hash of the input string, utilizing bit shifting.
 
-## Translate
+## 翻译
 
 将输入字符串哈希为整数。
 
 使用String.prototype.split（''）和Array.prototype.reduce（）使用位移来创建输入字符串的哈希。
 
-## Code
+## 代码
 
 ```js
 const sdbm = str => {
@@ -23,14 +23,8 @@ const sdbm = str => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 sdbm('name'); // -3521204949
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

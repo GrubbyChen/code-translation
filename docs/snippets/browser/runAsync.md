@@ -6,7 +6,7 @@ Create a new `Worker` using a `Blob` object URL, the contents of which should be
 Immediately post the return value of calling the function back.
 Return a promise, listening for `onmessage` and `onerror` events and resolving the data posted back from the worker, or throwing an error.
 
-## Translate
+## 翻译
 
 通过使用[Web Worker]（https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers）在单独的线程中运行函数，从而允许长时间运行的函数不会阻塞UI。
 
@@ -14,7 +14,7 @@ Return a promise, listening for `onmessage` and `onerror` events and resolving t
 立即发布回调该函数的返回值。
 返回承诺，侦听onmessage和onerror事件，并解决从工作人员回传的数据，或者引发错误。
 
-## Code
+## 代码
 
 ```js
 const runAsync = fn => {
@@ -34,7 +34,7 @@ const runAsync = fn => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 const longRunningFunction = () => {
@@ -54,9 +54,3 @@ runAsync(() => 10 ** 3).then(console.log); // 1000
 let outsideVariable = 50;
 runAsync(() => typeof outsideVariable).then(console.log); // 'undefined'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

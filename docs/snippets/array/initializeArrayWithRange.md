@@ -6,7 +6,7 @@ Use `Array.from()` to create an array of the desired length, `(end - start + 1)/
 You can omit `start` to use a default value of `0`.
 You can omit `step` to use a default value of `1`.
 
-## Translate
+## 翻译
 
 初始化一个数组，该数组包含指定范围内的数字，其中“ start”和“ end”包含其共同点“ step”。
 
@@ -14,23 +14,17 @@ You can omit `step` to use a default value of `1`.
 您可以省略“开始”以使用默认值“ 0”。
 您可以省略`step`以使用默认值'1'。
 
-## Code
+## 代码
 
 ```js
 const initializeArrayWithRange = (end, start = 0, step = 1) =>
   Array.from({ length: Math.ceil((end - start + 1) / step) }, (v, i) => i * step + start);
 ```
 
-## Example
+## 例子
 
 ```js
 initializeArrayWithRange(5); // [0,1,2,3,4,5]
 initializeArrayWithRange(7, 3); // [3,4,5,6,7]
 initializeArrayWithRange(9, 0, 2); // [0,2,4,6,8]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

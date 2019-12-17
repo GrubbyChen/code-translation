@@ -7,7 +7,7 @@ Provided that `running` is `true`, continue invoking `window.requestAnimationFra
 Return an object with two methods `start` and `stop` to allow manual control of the recording. 
 Omit the second argument, `autoStart`, to implicitly call `start` when the function is invoked.
 
-## Translate
+## 翻译
 
 在每个动画帧上调用提供的回调。
 
@@ -16,7 +16,7 @@ Omit the second argument, `autoStart`, to implicitly call `start` when the funct
 返回带有“ start”和“ stop”两种方法的对象，以允许手动控制记录。
 省略第二个参数“ autoStart”，以在调用函数时隐式调用“ start”。
 
-## Code
+## 代码
 
 ```js
 const recordAnimationFrames = (callback, autoStart = true) => {
@@ -41,7 +41,7 @@ const recordAnimationFrames = (callback, autoStart = true) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 const cb = () => console.log('Animation frame fired');
@@ -50,9 +50,3 @@ recorder.stop(); // stops logging
 recorder.start(); // starts again
 const recorder2 = recordAnimationFrames(cb, false); // `start` needs to be explicitly called to begin recording frames
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -6,7 +6,7 @@ Use `Array.prototype.reduce()` with the spread operator (`...`) to perform left-
 The functions can return a combination of: simple values, `Promise`'s, or they can be defined as `async` ones returning through `await`.
 All functions must be unary.
 
-## Translate
+## 翻译
 
 对异步功能执行从左到右的功能组合。
 
@@ -14,13 +14,13 @@ All functions must be unary.
 这些函数可以返回以下组合：简单值，Promise或可以定义为通过await返回的异步值。
 所有函数必须是一元的。
 
-## Code
+## 代码
 
 ```js
 const pipeAsyncFunctions = (...fns) => arg => fns.reduce((p, f) => p.then(f), Promise.resolve(arg));
 ```
 
-## Example
+## 例子
 
 ```js
 const sum = pipeAsyncFunctions(
@@ -33,9 +33,3 @@ const sum = pipeAsyncFunctions(
   console.log(await sum(5)); // 15 (after one second)
 })();
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -7,7 +7,7 @@ Use `Object.prototype.hasOwnProperty()` to check if `obj` does not have the curr
 Otherwise assign the key's value to `obj` to use on the next iteration.
 Return `false` beforehand if given key list is empty.
 
-## Translate
+## 翻译
 
 如果目标值存在于JSON对象中，则返回“ true”，否则返回“ false”。
 
@@ -16,7 +16,7 @@ Return `false` beforehand if given key list is empty.
 否则，将键的值分配给obj以在下一次迭代中使用。
 如果给定的密钥列表为空，则事先返回“ false”。
 
-## Code
+## 代码
 
 ```js
 const hasKey = (obj, keys) => {
@@ -31,7 +31,7 @@ const hasKey = (obj, keys) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 let obj = {
@@ -47,9 +47,3 @@ hasKey(obj, ['d']); // false
 hasKey(obj, ['c']); // false
 hasKey(obj, ['b', 'f']); // false
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

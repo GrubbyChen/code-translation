@@ -6,7 +6,7 @@ Use `Array.prototype.slice()` twice to get the elements after the specified inde
 Use the spread operator(`...`) to combine the two into one array.
 If `offset` is negative, the elements will be moved from end to start.
 
-## Translate
+## 翻译
 
 将指定数量的元素移动到数组的末尾。
 
@@ -14,21 +14,15 @@ If `offset` is negative, the elements will be moved from end to start.
 使用散布运算符（`...`）将两者合并为一个数组。
 如果`offset`为负，则元素将从头到尾移动。
 
-## Code
+## 代码
 
 ```js
 const offset = (arr, offset) => [...arr.slice(offset), ...arr.slice(0, offset)];
 ```
 
-## Example
+## 例子
 
 ```js
 offset([1, 2, 3, 4, 5], 2); // [3, 4, 5, 1, 2]
 offset([1, 2, 3, 4, 5], -2); // [4, 5, 1, 2, 3]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

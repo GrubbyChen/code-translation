@@ -9,7 +9,7 @@ For each letter in the given string, create all the partial permutations for the
 Use `Array.prototype.map()` to combine the letter with each partial permutation, then `Array.prototype.reduce()` to combine all permutations in one array.
 Base cases are for string `length` equal to `2` or `1`.
 
-## Translate
+## 翻译
 
 生成字符串的所有排列（包含重复项）。
 
@@ -20,7 +20,7 @@ Base cases are for string `length` equal to `2` or `1`.
 使用Array.prototype.map（）将字母与每个部分排列组合，然后使用Array.prototype.reduce（）将所有排列组合在一个数组中。
 基本情况是字符串“ length”等于“ 2”或“ 1”。
 
-## Code
+## 代码
 
 ```js
 const stringPermutations = str => {
@@ -35,14 +35,8 @@ const stringPermutations = str => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 stringPermutations('abc'); // ['abc','acb','bac','bca','cab','cba']
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -4,13 +4,13 @@ Converts a string to camelcase.
 
 Break the string into words and combine them capitalizing the first letter of each word, using a regexp.
 
-## Translate
+## 翻译
 
 将字符串转换为驼峰式。
 
 将字符串分解为单词，然后使用正则表达式将它们组合为每个单词的首字母大写。
 
-## Code
+## 代码
 
 ```js
 const toCamelCase = str => {
@@ -24,7 +24,7 @@ const toCamelCase = str => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 toCamelCase('some_database_field_name'); // 'someDatabaseFieldName'
@@ -32,9 +32,3 @@ toCamelCase('Some label that needs to be camelized'); // 'someLabelThatNeedsToBe
 toCamelCase('some-javascript-property'); // 'someJavascriptProperty'
 toCamelCase('some-mixed_string with spaces_underscores-and-hyphens'); // 'someMixedStringWithSpacesUnderscoresAndHyphens'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

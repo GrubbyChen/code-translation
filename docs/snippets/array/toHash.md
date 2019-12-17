@@ -4,13 +4,13 @@ Reduces a given Array-like into a value hash (keyed data store).
 
 Given an Iterable or Array-like structure, call `Array.prototype.reduce.call()` on the provided object to step over it and return an Object, keyed by the reference value.
 
-## Translate
+## 翻译
 
 将给定的类数组简化为值哈希（键控数据存储）。
 
 给定一个Iterable或类似Array的结构，请在提供的对象上调用Array.prototype.reduce.call（）以遍历它，并返回一个由参考值作为键的对象。
 
-## Code
+## 代码
 
 ```js
 const toHash = (object, key) =>
@@ -21,7 +21,7 @@ const toHash = (object, key) =>
   );
 ```
 
-## Example
+## 例子
 
 ```js
 toHash([4, 3, 2, 1]); // { 0: 4, 1: 3, 2: 2, 3: 1 }
@@ -38,9 +38,3 @@ managers.forEach(
 );
 managers; // [ { manager:1, employees: [ { id: 2, first: "Joe" }, { id: 3, first: "Moe" } ] } ]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

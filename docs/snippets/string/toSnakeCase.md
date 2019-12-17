@@ -4,13 +4,13 @@ Converts a string to snake case.
 
 Break the string into words and combine them adding `_` as a separator, using a regexp.
 
-## Translate
+## 翻译
 
 将字符串转换为蛇形。
 
 将字符串分解为单词，并使用正则表达式将它们加起来以分隔符_分隔。
 
-## Code
+## 代码
 
 ```js
 const toSnakeCase = str =>
@@ -21,7 +21,7 @@ const toSnakeCase = str =>
     .join('_');
 ```
 
-## Example
+## 例子
 
 ```js
 toSnakeCase('camelCase'); // 'camel_case'
@@ -30,9 +30,3 @@ toSnakeCase('some-mixed_string With spaces_underscores-and-hyphens'); // 'some_m
 toSnakeCase('AllThe-small Things'); // "all_the_smal_things"
 toSnakeCase('IAmListeningToFMWhileLoadingDifferentURLOnMyBrowserAndAlsoEditingSomeXMLAndHTML'); // "i_am_listening_to_fm_while_loading_different_url_on_my_browser_and_also_editing_some_xml_and_html"
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

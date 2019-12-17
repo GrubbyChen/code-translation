@@ -6,7 +6,7 @@ Use `Object.keys(obj)` combined with `Array.prototype.reduce()` to convert flatt
 If the value of a key contains a dot delimiter (`.`), use `Array.prototype.split('.')`, string transformations and `JSON.parse()` to create an object, then `Object.assign()` to create the leaf node.
 Otherwise, add the appropriate key-value pair to the accumulator object.
 
-## Translate
+## 翻译
 
 使用键的路径展开对象。
 
@@ -14,7 +14,7 @@ Otherwise, add the appropriate key-value pair to the accumulator object.
 如果键的值包含点定界符（。），请使用Array.prototype.split（..），字符串转换和JSON.parse（）创建对象，然后使用Object.assign （）`创建叶子节点。
 否则，将适当的键值对添加到累加器对象。
 
-## Code
+## 代码
 
 ```js
 const unflattenObject = obj =>
@@ -35,14 +35,8 @@ const unflattenObject = obj =>
   }, {});
 ```
 
-## Example
+## 例子
 
 ```js
 unflattenObject({ 'a.b.c': 1, d: 1 }); // { a: { b: { c: 1 } }, d: 1 }
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

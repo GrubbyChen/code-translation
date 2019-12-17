@@ -7,7 +7,7 @@ If `inherited` is `true`, use `Object.get.PrototypeOf(obj)` to also get the obje
 Use `Array.prototype.filter()` to keep only those properties that are functions.
 Omit the second argument, `inherited`, to not include inherited properties by default.
 
-## Translate
+## 翻译
 
 从对象自己的（并且可选地继承）可枚举属性中返回函数属性名称的数组。
 
@@ -16,7 +16,7 @@ Omit the second argument, `inherited`, to not include inherited properties by de
 使用Array.prototype.filter（）仅保留那些作为函数的属性。
 省略第二个参数“继承”，默认情况下不包括继承的属性。
 
-## Code
+## 代码
 
 ```js
 const functions = (obj, inherited = false) =>
@@ -26,7 +26,7 @@ const functions = (obj, inherited = false) =>
   ).filter(key => typeof obj[key] === 'function');
 ```
 
-## Example
+## 例子
 
 ```js
 function Foo() {
@@ -37,9 +37,3 @@ Foo.prototype.c = () => 3;
 functions(new Foo()); // ['a', 'b']
 functions(new Foo(), true); // ['a', 'b', 'c']
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

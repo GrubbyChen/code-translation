@@ -4,13 +4,13 @@ Returns the distance between two vectors.
 
 Use `Array.prototype.reduce()`, `Math.pow()` and `Math.sqrt()` to calculate the Euclidean distance between two vectors.
 
-## Translate
+## 翻译
 
 返回两个向量之间的距离。
 
 使用Array.prototype.reduce（），Math.pow（）和Math.sqrt（）计算两个向量之间的欧几里得距离。
 
-## Code
+## 代码
 
 ```js
 const vectorDistance = (...coords) => {
@@ -22,14 +22,8 @@ const vectorDistance = (...coords) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 vectorDistance(10, 0, 5, 20, 0, 10); // 11.180339887498949
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

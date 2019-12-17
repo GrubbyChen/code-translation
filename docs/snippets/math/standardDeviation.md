@@ -6,7 +6,7 @@ Use `Array.prototype.reduce()` to calculate the mean, variance and the sum of th
 determine the standard deviation.
 You can omit the second argument to get the sample standard deviation or set it to `true` to get the population standard deviation.
 
-## Translate
+## 翻译
 
 返回数字数组的标准偏差。
 
@@ -14,7 +14,7 @@ You can omit the second argument to get the sample standard deviation or set it 
 确定标准偏差。
 您可以省略第二个参数以获取样本标准偏差，或者将其设置为“ true”以获取总体标准偏差。
 
-## Code
+## 代码
 
 ```js
 const standardDeviation = (arr, usePopulation = false) => {
@@ -26,15 +26,9 @@ const standardDeviation = (arr, usePopulation = false) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 standardDeviation([10, 2, 38, 23, 38, 23, 21]); // 13.284434142114991 (sample)
 standardDeviation([10, 2, 38, 23, 38, 23, 21], true); // 12.29899614287479 (population)
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

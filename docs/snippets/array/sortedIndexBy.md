@@ -5,14 +5,14 @@ Returns the lowest index at which value should be inserted into array in order t
 Check if the array is sorted in descending order (loosely).
 Use `Array.prototype.findIndex()` to find the appropriate index where the element should be inserted, based on the iterator function `fn`.
 
-## Translate
+## 翻译
 
 根据提供的迭代器函数，返回应将值插入数组以保持其排序顺序的最低索引。
 
 检查数组是否以降序排序（松散）。
 根据迭代器函数fn，使用Array.prototype.findIndex（）查找要插入元素的适当索引。
 
-## Code
+## 代码
 
 ```js
 const sortedIndexBy = (arr, n, fn) => {
@@ -23,14 +23,8 @@ const sortedIndexBy = (arr, n, fn) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 sortedIndexBy([{ x: 4 }, { x: 5 }], { x: 4 }, o => o.x); // 0
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -6,7 +6,7 @@ Calculate the ordering `direction` for the first two elements.
 Use `Object.entries()` to loop over array objects and compare them in pairs.
 Return `0` if the `direction` changes or the `direction` if the last element is reached.
 
-## Translate
+## 翻译
 
 如果数组按升序排序，则返回“ 1”，如果按降序排序，则返回“ -1”，如果未排序则返回“ 0”。
 
@@ -14,7 +14,7 @@ Return `0` if the `direction` changes or the `direction` if the last element is 
 使用Object.entries（）遍历数组对象并成对比较它们。
 如果方向更改，则返回0；如果到达最后一个元素，则返回方向。
 
-## Code
+## 代码
 
 ```js
 const isSorted = arr => {
@@ -27,16 +27,10 @@ const isSorted = arr => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 isSorted([0, 1, 2, 2]); // 1
 isSorted([4, 3, 2]); // -1
 isSorted([4, 3, 5]); // 0
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

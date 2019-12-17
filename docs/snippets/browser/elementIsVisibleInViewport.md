@@ -7,7 +7,7 @@ to determine if a given element is visible in the viewport.
 Omit the second argument to determine if the element is entirely visible, or specify `true` to determine if
 it is partially visible.
 
-## Translate
+## 翻译
 
 如果指定的元素在视口中可见，则返回“ true”，否则返回“ false”。
 
@@ -16,7 +16,7 @@ it is partially visible.
 省略第二个参数以确定元素是否完全可见，或指定“ true”确定是否
 它是部分可见的。
 
-## Code
+## 代码
 
 ```js
 const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
@@ -29,16 +29,10 @@ const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 // e.g. 100x100 viewport and a 10x10px element at position {top: -1, left: 0, bottom: 9, right: 10}
 elementIsVisibleInViewport(el); // false - (not fully visible)
 elementIsVisibleInViewport(el, true); // true - (partially visible)
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

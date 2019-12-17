@@ -4,13 +4,13 @@ Chains asynchronous functions.
 
 Loop through an array of functions containing asynchronous events, calling `next` when each asynchronous event has completed.
 
-## Translate
+## 翻译
 
 链接异步函数。
 
 遍历包含异步事件的函数数组，并在每个异步事件完成后调用“ next”。
 
-## Code
+## 代码
 
 ```js
 const chainAsync = fns => {
@@ -24,7 +24,7 @@ const chainAsync = fns => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 chainAsync([
@@ -41,9 +41,3 @@ chainAsync([
   }
 ]);
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

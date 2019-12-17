@@ -6,7 +6,7 @@ Use the modulo operator (`%`) to find values of single and tens digits.
 Find which ordinal pattern digits match.
 If digit is found in teens pattern, use teens ordinal.
 
-## Translate
+## 翻译
 
 在数字后添加序数后缀。
 
@@ -14,7 +14,7 @@ If digit is found in teens pattern, use teens ordinal.
 查找匹配的序号数字。
 如果在青少年模式中找到数字，请使用青少年序数。
 
-## Code
+## 代码
 
 ```js
 const toOrdinalSuffix = num => {
@@ -29,14 +29,8 @@ const toOrdinalSuffix = num => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 toOrdinalSuffix('123'); // "123rd"
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

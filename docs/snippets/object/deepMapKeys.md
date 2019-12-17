@@ -6,7 +6,7 @@ Creates an object with the same values as the provided object and keys generated
 Use `Object.keys(obj)` to iterate over the object's keys. 
 Use `Array.prototype.reduce()` to create a new object with the same values and mapped keys using `fn`.
 
-## Translate
+## 翻译
 
 深度映射对象的键。
 
@@ -14,7 +14,7 @@ Use `Array.prototype.reduce()` to create a new object with the same values and m
 使用Object.keys（obj）遍历对象的键。
 使用Array.prototype.reduce（）使用fn创建一个具有相同值和映射键的新对象。
 
-## Code
+## 代码
 
 ```js
 const deepMapKeys = (obj, f) =>
@@ -30,7 +30,7 @@ const deepMapKeys = (obj, f) =>
     : obj;
 ```
 
-## Example
+## 例子
 
 ```js
 const obj = {
@@ -61,9 +61,3 @@ const upperKeysObj = deepMapKeys(obj, key => key.toUpperCase());
 }
 */
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

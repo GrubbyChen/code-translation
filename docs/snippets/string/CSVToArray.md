@@ -7,7 +7,7 @@ Use `String.prototype.split('\n')` to create a string for each row, then `String
 Omit the second argument, `delimiter`, to use a default delimiter of `,`.
 Omit the third argument, `omitFirstRow`, to include the first row (title row) of the CSV string.
 
-## Translate
+## 翻译
 
 将逗号分隔值（CSV）字符串转换为2D数组。
 
@@ -16,7 +16,7 @@ Omit the third argument, `omitFirstRow`, to include the first row (title row) of
 省略第二个参数`delimiter`，以使用默认定界符`，`。
 省略第三个参数“ omitFirstRow”，以包含CSV字符串的第一行（标题行）。
 
-## Code
+## 代码
 
 ```js
 const CSVToArray = (data, delimiter = ',', omitFirstRow = false) =>
@@ -26,16 +26,10 @@ const CSVToArray = (data, delimiter = ',', omitFirstRow = false) =>
     .map(v => v.split(delimiter));
 ```
 
-## Example
+## 例子
 
 ```js
 CSVToArray('a,b\nc,d'); // [['a','b'],['c','d']];
 CSVToArray('a;b\nc;d', ';'); // [['a','b'],['c','d']];
 CSVToArray('col1,col2\na,b\nc,d', ',', true); // [['a','b'],['c','d']];
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -6,7 +6,7 @@ The inner `_gcd` function uses recursion.
 Base case is when `y` equals `0`. In this case, return `x`.
 Otherwise, return the GCD of `y` and the remainder of the division `x/y`.
 
-## Translate
+## 翻译
 
 计算两个或多个数字/数组之间的最大公约数。
 
@@ -14,7 +14,7 @@ Otherwise, return the GCD of `y` and the remainder of the division `x/y`.
 基本情况是“ y”等于“ 0”。在这种情况下，返回`x`。
 否则，返回GCD的y和除法x / y的余数。
 
-## Code
+## 代码
 
 ```js
 const gcd = (...arr) => {
@@ -23,15 +23,9 @@ const gcd = (...arr) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 gcd(8, 36); // 4
 gcd(...[12, 8, 32]); // 4
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -8,7 +8,7 @@ Return the prettified string by building it up, taking into account the supplied
 Omit the second argument, `precision`, to use a default precision of `3` digits.
 Omit the third argument, `addSpace`, to add space between the number and unit by default.
 
-## Translate
+## 翻译
 
 将以字节为单位的数字转换为人类可读的字符串。
 
@@ -18,7 +18,7 @@ Omit the third argument, `addSpace`, to add space between the number and unit by
 忽略第二个参数`precision`以使用默认精度`3` digits。
 省略第三个参数“ addSpace”，默认情况下在数字和单位之间添加空格。
 
-## Code
+## 代码
 
 ```js
 const prettyBytes = (num, precision = 3, addSpace = true) => {
@@ -30,16 +30,10 @@ const prettyBytes = (num, precision = 3, addSpace = true) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 prettyBytes(1000); // "1 KB"
 prettyBytes(-27145424323.5821, 5); // "-27.145 GB"
 prettyBytes(123456789, 3, false); // "123MB"
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

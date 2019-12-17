@@ -5,14 +5,14 @@ Returns an object containing the parameters of the current URL.
 Use `String.match()` with an appropriate regular expression to get all key-value pairs, `Array.prototype.reduce()` to map and combine them into a single object.
 Pass `location.search` as the argument to apply to the current `url`.
 
-## Translate
+## 翻译
 
 返回一个包含当前URL参数的对象。
 
 使用带有适当正则表达式的String.match（）获取所有键值对，Array.prototype.reduce（）映射并将它们组合为单个对象。
 将location.search作为参数传递给当前的URL。
 
-## Code
+## 代码
 
 ```js
 const getURLParameters = url =>
@@ -22,15 +22,9 @@ const getURLParameters = url =>
   );
 ```
 
-## Example
+## 例子
 
 ```js
 getURLParameters('http://url.com/page?name=Adam&surname=Smith'); // {name: 'Adam', surname: 'Smith'}
 getURLParameters('google.com'); // {}
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

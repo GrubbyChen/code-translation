@@ -6,7 +6,7 @@ Use `!isNaN()` in combination with `parseFloat()` to check if the argument is a 
 Use `isFinite()` to check if the number is finite.
 Use `Number()` to check if the coercion holds.
 
-## Translate
+## 翻译
 
 如果给定值是数字，则返回“ true”，否则返回“ false”。
 
@@ -14,20 +14,14 @@ Use `Number()` to check if the coercion holds.
 使用`isFinite（）`检查数字是否有限。
 使用Number（）检查强制是否成立。
 
-## Code
+## 代码
 
 ```js
 const validateNumber = n => !isNaN(parseFloat(n)) && isFinite(n) && Number(n) == n;
 ```
 
-## Example
+## 例子
 
 ```js
 validateNumber('10'); // true
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

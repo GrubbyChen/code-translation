@@ -4,13 +4,13 @@ Attempts to invoke a function with the provided arguments, returning either the 
 
 Use a `try... catch` block to return either the result of the function or an appropriate error.
 
-## Translate
+## 翻译
 
 尝试使用提供的参数调用函数，返回结果或捕获的错误对象。
 
 使用`try ... catch`块返回函数结果或适当的错误。
 
-## Code
+## 代码
 
 ```js
 const attempt = (fn, ...args) => {
@@ -22,7 +22,7 @@ const attempt = (fn, ...args) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 var elements = attempt(function(selector) {
@@ -30,9 +30,3 @@ var elements = attempt(function(selector) {
 }, '>_>');
 if (elements instanceof Error) elements = []; // elements = []
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

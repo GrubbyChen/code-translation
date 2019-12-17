@@ -8,7 +8,7 @@ Use `length` or `size` value if available or number of keys for objects.
 Use `size` of a [`Blob` object](https://developer.mozilla.org/en-US/docs/Web/API/Blob) created from `val` for strings.
 Split strings into array of characters with `split('')` and return its length.
 
-## Translate
+## 翻译
 
 获取数组，对象或字符串的大小。
 
@@ -18,7 +18,7 @@ Split strings into array of characters with `split('')` and return its length.
 使用从`val`创建的[`Blob`对象]（https://developer.mozilla.org/zh-CN/docs/Web/API/Blob）的`size`作为字符串。
 用`split（''）`将字符串分割成字符数组，并返回其长度。
 
-## Code
+## 代码
 
 ```js
 const size = val =>
@@ -31,16 +31,10 @@ const size = val =>
     : 0;
 ```
 
-## Example
+## 例子
 
 ```js
 size([1, 2, 3, 4, 5]); // 5
 size('size'); // 4
 size({ one: 1, two: 2, three: 3 }); // 3
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

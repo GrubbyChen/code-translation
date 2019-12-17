@@ -7,7 +7,7 @@ Use `Array.prototype.sort()` combined with the spread operator (`...`) to create
 Use `Array.prototype.slice()` to get the specified number of elements.
 Omit the second argument, `n`, to get a one-element array.
 
-## Translate
+## 翻译
 
 从提供的数组中返回n个最小元素。
 如果`n`大于或等于提供的数组的长度，则返回原始数组（以升序排列）。
@@ -16,21 +16,15 @@ Omit the second argument, `n`, to get a one-element array.
 使用Array.prototype.slice（）获取指定数量的元素。
 省略第二个参数n，以获取一个单元素数组。
 
-## Code
+## 代码
 
 ```js
 const minN = (arr, n = 1) => [...arr].sort((a, b) => a - b).slice(0, n);
 ```
 
-## Example
+## 例子
 
 ```js
 minN([1, 2, 3]); // [1]
 minN([1, 2, 3], 2); // [1,2]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

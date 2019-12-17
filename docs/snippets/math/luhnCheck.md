@@ -7,7 +7,7 @@ Use `Array.prototype.splice(0,1)` to obtain the last digit.
 Use `Array.prototype.reduce()` to implement the Luhn Algorithm.
 Return `true` if `sum` is divisible by `10`, `false` otherwise.
 
-## Translate
+## 翻译
 
 [Luhn算法]（https://en.wikipedia.org/wiki/Luhn_algorithm）的实现，用于验证各种标识号，例如信用卡号，IMEI号，国家提供商标识号等。
 
@@ -16,7 +16,7 @@ Return `true` if `sum` is divisible by `10`, `false` otherwise.
 使用Array.prototype.reduce（）实现Luhn算法。
 如果sum被10整除，则返回true，否则返回false。
 
-## Code
+## 代码
 
 ```js
 const luhnCheck = num => {
@@ -31,16 +31,10 @@ const luhnCheck = num => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 luhnCheck('4485275742308327'); // true
 luhnCheck(6011329933655299); //  false
 luhnCheck(123456789); // false
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

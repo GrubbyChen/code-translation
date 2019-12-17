@@ -8,7 +8,7 @@ Use `String.prototype.split('\n')` to create a string for each row, then `Array.
 Use `Array.prototype.reduce()` to create an object for each row's values, with the keys parsed from the title row.
 Omit the second argument, `delimiter`, to use a default delimiter of `,`.
 
-## Translate
+## 翻译
 
 将逗号分隔值（CSV）字符串转换为2D对象数组。
 字符串的第一行用作标题行。
@@ -18,7 +18,7 @@ Omit the second argument, `delimiter`, to use a default delimiter of `,`.
 使用Array.prototype.reduce（）为每行的值创建一个对象，并从标题行中解析键。
 省略第二个参数`delimiter`，以使用默认定界符`，`。
 
-## Code
+## 代码
 
 ```js
 const CSVToJSON = (data, delimiter = ',') => {
@@ -33,15 +33,9 @@ const CSVToJSON = (data, delimiter = ',') => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 CSVToJSON('col1,col2\na,b\nc,d'); // [{'col1': 'a', 'col2': 'b'}, {'col1': 'c', 'col2': 'd'}];
 CSVToJSON('col1;col2\na;b\nc;d', ';'); // [{'col1': 'a', 'col2': 'b'}, {'col1': 'c', 'col2': 'd'}];
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

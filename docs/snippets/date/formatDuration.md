@@ -7,7 +7,7 @@ Use `Object.entries()` with `Array.prototype.filter()` to keep only non-zero val
 Use `Array.prototype.map()` to create the string for each value, pluralizing appropriately.
 Use `String.prototype.join(', ')` to combine the values into a string.
 
-## Translate
+## 翻译
 
 返回给定毫秒数的人类可读格式。
 
@@ -16,7 +16,7 @@ Use `String.prototype.join(', ')` to combine the values into a string.
 使用Array.prototype.map（）为每个值创建字符串，并将其适当地复数。
 使用`String.prototype.join（'，'）`将值组合成一个字符串。
 
-## Code
+## 代码
 
 ```js
 const formatDuration = ms => {
@@ -35,15 +35,9 @@ const formatDuration = ms => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 formatDuration(1001); // '1 second, 1 millisecond'
 formatDuration(34325055574); // '397 days, 6 hours, 44 minutes, 15 seconds, 574 milliseconds'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

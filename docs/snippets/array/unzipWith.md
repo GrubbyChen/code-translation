@@ -6,7 +6,7 @@ Use `Math.max.apply()` to get the longest subarray in the array, `Array.prototyp
 Use `Array.prototype.reduce()` and `Array.prototype.forEach()` to map grouped values to individual arrays.
 Use `Array.prototype.map()` and the spread operator (`...`) to apply `fn` to each individual group of elements.
 
-## Translate
+## 翻译
 
 创建元素数组，将[zip]（＃zip）生成的数组中的元素取消分组，并应用提供的函数。
 
@@ -14,7 +14,7 @@ Use `Array.prototype.map()` and the spread operator (`...`) to apply `fn` to eac
 使用Array.prototype.reduce（）和Array.prototype.forEach（）将分组值映射到单个数组。
 使用Array.prototype.map（）和散布运算符（...）将fn应用于每个单独的元素组。
 
-## Code
+## 代码
 
 ```js
 const unzipWith = (arr, fn) =>
@@ -28,14 +28,8 @@ const unzipWith = (arr, fn) =>
     .map(val => fn(...val));
 ```
 
-## Example
+## 例子
 
 ```js
 unzipWith([[1, 10, 100], [2, 20, 200]], (...args) => args.reduce((acc, v) => acc + v, 0)); // [3, 30, 300]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

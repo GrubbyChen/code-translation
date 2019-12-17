@@ -6,7 +6,7 @@ Use `Array.prototype.map()` and `Array.prototype.join(delimiter)` to combine ind
 Use `Array.prototype.join('\n')` to combine all rows into a CSV string, separating each row with a newline.
 Omit the second argument, `delimiter`, to use a default delimiter of `,`.
 
-## Translate
+## 翻译
 
 将二维数组转换为逗号分隔值（CSV）字符串。
 
@@ -14,7 +14,7 @@ Omit the second argument, `delimiter`, to use a default delimiter of `,`.
 使用Array.prototype.join（'\ n'）将所有行合并为CSV字符串，并用换行符分隔每一行。
 省略第二个参数`delimiter`，以使用默认定界符`，`。
 
-## Code
+## 代码
 
 ```js
 const arrayToCSV = (arr, delimiter = ',') =>
@@ -23,16 +23,10 @@ const arrayToCSV = (arr, delimiter = ',') =>
     .join('\n');
 ```
 
-## Example
+## 例子
 
 ```js
 arrayToCSV([['a', 'b'], ['c', 'd']]); // '"a","b"\n"c","d"'
 arrayToCSV([['a', 'b'], ['c', 'd']], ';'); // '"a";"b"\n"c";"d"'
 arrayToCSV([['a', '"b" great'], ['c', 3.1415]]); // '"a","""b"" great"\n"c",3.1415'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

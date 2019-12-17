@@ -6,7 +6,7 @@ Create a `Set` by applying all `fn` to all values of `a`.
 Create a `Set` from `a` and all elements in `b` whose value, after applying `fn` does not match a value in the previously created set.
 Return the last set converted to an array.
 
-## Translate
+## 翻译
 
 将提供的函数应用于两个数组的每个数组元素后，一次返回两个数组中的任何一个数组中存在的每个元素。
 
@@ -14,7 +14,7 @@ Return the last set converted to an array.
 从`a`和`b`中的所有元素创建一个`Set`，其值在应用`fn'之后与先前创建的set中的值不匹配。
 返回转换为数组的最后一组。
 
-## Code
+## 代码
 
 ```js
 const unionBy = (a, b, fn) => {
@@ -23,14 +23,8 @@ const unionBy = (a, b, fn) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 unionBy([2.1], [1.2, 2.3], Math.floor); // [2.1, 1.2]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

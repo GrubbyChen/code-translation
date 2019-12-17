@@ -6,7 +6,7 @@ Use `Array.prototype.slice()` to get an array containing the nth element at the 
 If the index is out of bounds, return `undefined`.
 Omit the second argument, `n`, to get the first element of the array.
 
-## Translate
+## 翻译
 
 返回数组的第n个元素。
 
@@ -14,21 +14,15 @@ Omit the second argument, `n`, to get the first element of the array.
 如果索引超出范围，则返回`undefined`。
 省略第二个参数n，以获取数组的第一个元素。
 
-## Code
+## 代码
 
 ```js
 const nthElement = (arr, n = 0) => (n === -1 ? arr.slice(n) : arr.slice(n, n + 1))[0];
 ```
 
-## Example
+## 例子
 
 ```js
 nthElement(['a', 'b', 'c'], 1); // 'b'
 nthElement(['a', 'b', 'b'], -3); // 'a'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

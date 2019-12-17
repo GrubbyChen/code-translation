@@ -9,7 +9,7 @@ of each opponent and compute the new rating for each.
 Loop through the ratings, using each permutation to compute the post-Elo rating for each player in a pairwise fashion. 
 Omit the second argument to use the default `kFactor` of 32.
 
-## Translate
+## 翻译
 
 使用[Elo评分系统]（https://en.wikipedia.org/wiki/Elo_rating_system）计算两个或多个对手之间的新评分。它需要一个数组
 的前评分，并返回包含后评分的数组。
@@ -20,7 +20,7 @@ Omit the second argument to use the default `kFactor` of 32.
 循环浏览等级，使用每个排列以成对方式计算每个玩家的Elo后等级。
 省略第二个参数以使用默认的kFactor值32。
 
-## Code
+## 代码
 
 ```js
 const elo = ([...ratings], kFactor = 32, selfRating) => {
@@ -41,7 +41,7 @@ const elo = ([...ratings], kFactor = 32, selfRating) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 // Standard 1v1s
@@ -55,9 +55,3 @@ average rating of opposing team, with the score being added to their
 own individual rating by supplying it as the third argument.
 */
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

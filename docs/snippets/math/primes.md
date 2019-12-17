@@ -4,13 +4,13 @@ Generates primes up to a given number, using the Sieve of Eratosthenes.
 
 Generate an array from `2` to the given number. Use `Array.prototype.filter()` to filter out the values divisible by any number from `2` to the square root of the provided number.
 
-## Translate
+## 翻译
 
 使用Eratosthenes筛子产生最多给定数的质数。
 
 从2到给定数字生成一个数组。使用Array.prototype.filter（）过滤掉从2到所提供数字的平方根的任何数字可整除的值。
 
-## Code
+## 代码
 
 ```js
 const primes = num => {
@@ -22,14 +22,8 @@ const primes = num => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 primes(10); // [2,3,5,7]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

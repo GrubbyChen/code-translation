@@ -4,13 +4,13 @@ Creates a hash for a value using the [SHA-256](https://en.wikipedia.org/wiki/SHA
 
 Use the [SubtleCrypto](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto) API to create a hash for the given value.
 
-## Translate
+## 翻译
 
 使用[SHA-256]（https://en.wikipedia.org/wiki/SHA-2）算法为值创建哈希。返回承诺。
 
 使用[SubtleCrypto]（https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto）API为给定值创建哈希。
 
-## Code
+## 代码
 
 ```js
 const hashBrowser = val =>
@@ -23,14 +23,8 @@ const hashBrowser = val =>
   });
 ```
 
-## Example
+## 例子
 
 ```js
 hashBrowser(JSON.stringify({ a: 'a', b: [1, 2, 3, 4], foo: { c: 'bar' } })).then(console.log); // '04aa106279f5977f59f9067fa9712afc4aedc6f5862a8defc34552d8c7206393'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

@@ -5,14 +5,14 @@ Creates an object with the same keys as the provided object and values generated
 Use `Object.keys(obj)` to iterate over the object's keys.
 Use `Array.prototype.reduce()` to create a new object with the same keys and mapped values using `fn`.
 
-## Translate
+## 翻译
 
 创建一个与提供的对象具有相同键的对象，并为每个值运行通过提供的函数生成的值。
 
 使用Object.keys（obj）遍历对象的键。
 使用Array.prototype.reduce（）使用fn创建具有相同键和映射值的新对象。
 
-## Code
+## 代码
 
 ```js
 const mapValues = (obj, fn) =>
@@ -22,7 +22,7 @@ const mapValues = (obj, fn) =>
   }, {});
 ```
 
-## Example
+## 例子
 
 ```js
 const users = {
@@ -31,9 +31,3 @@ const users = {
 };
 mapValues(users, u => u.age); // { fred: 40, pebbles: 1 }
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

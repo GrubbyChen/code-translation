@@ -7,7 +7,7 @@ Use `Array.from()`, `Math.log()` and `Math.floor()` to create an array of the de
 Omit the second argument, `start`, to use a default value of `1`.
 Omit the third argument, `step`, to use a default value of `2`.
 
-## Translate
+## 翻译
 
 初始化一个数组，该数组包含指定范围内的数字，其中“ start”和“ end”包括端值，并且两项之间的比率为“ step”。
 如果step等于1，则返回错误。
@@ -16,7 +16,7 @@ Omit the third argument, `step`, to use a default value of `2`.
 省略第二个参数“ start”以使用默认值“ 1”。
 省略第三个参数“ step”以使用默认值“ 2”。
 
-## Code
+## 代码
 
 ```js
 const geometricProgression = (end, start = 1, step = 2) =>
@@ -25,16 +25,10 @@ const geometricProgression = (end, start = 1, step = 2) =>
   );
 ```
 
-## Example
+## 例子
 
 ```js
 geometricProgression(256); // [1, 2, 4, 8, 16, 32, 64, 128, 256]
 geometricProgression(256, 3); // [3, 6, 12, 24, 48, 96, 192]
 geometricProgression(256, 1, 4); // [1, 4, 16, 64, 256]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

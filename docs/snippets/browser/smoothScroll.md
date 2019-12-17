@@ -5,14 +5,14 @@ Smoothly scrolls the element on which it's called into the visible area of the b
 Use `.scrollIntoView` method to scroll the element. 
 Pass `{ behavior: 'smooth' }` to `.scrollIntoView` so it scrolls smoothly.
 
-## Translate
+## 翻译
 
 将调用该元素的元素平滑滚动到浏览器窗口的可见区域。
 
 使用.scrollIntoView方法滚动元素。
 将`{behavior：'smooth'}`传递给`.scrollIntoView`，以便其平滑滚动。
 
-## Code
+## 代码
 
 ```js
 const smoothScroll = element =>
@@ -21,15 +21,9 @@ const smoothScroll = element =>
   });
 ```
 
-## Example
+## 例子
 
 ```js
 smoothScroll('#fooBar'); // scrolls smoothly to the element with the id fooBar
 smoothScroll('.fooBar'); // scrolls smoothly to the first element with a class of fooBar
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

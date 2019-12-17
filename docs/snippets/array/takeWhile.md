@@ -5,14 +5,14 @@ Removes elements in an array until the passed function returns `true`. Returns t
 Loop through the array, using a `for...of` loop over `Array.prototype.entries()` until the returned value from the function is `true`.
 Return the removed elements, using `Array.prototype.slice()`.
 
-## Translate
+## 翻译
 
 删除数组中的元素，直到传递的函数返回“ true”为止。返回移除的元素。
 
 通过在Array.prototype.entries（）上使用for循环来遍历数组，直到函数返回的值为true为止。
 使用Array.prototype.slice（）返回删除的元素。
 
-## Code
+## 代码
 
 ```js
 const takeWhile = (arr, func) => {
@@ -21,14 +21,8 @@ const takeWhile = (arr, func) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 takeWhile([1, 2, 3, 4], n => n >= 3); // [1, 2]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

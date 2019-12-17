@@ -6,7 +6,7 @@ Use `Array.prototype.map()` to generate an array where each value is the total t
 Use `Math.min()` to find the minimum execution time, and return the index of that shortest time which corresponds to the index of the most performant function.
 Omit the second argument, `iterations`, to use a default of 10,000 iterations. The more iterations, the more reliable the result but the longer it will take.
 
-## Translate
+## 翻译
 
 返回执行最快的函数数组中的函数索引。
 
@@ -14,7 +14,7 @@ Omit the second argument, `iterations`, to use a default of 10,000 iterations. T
 使用`Math.min（）`查找最短执行时间，并返回最短时间的索引，该索引对应于性能最高的函数的索引。
 省略第二个参数“迭代”，以使用默认的10,000次迭代。迭代次数越多，结果越可靠，但花费的时间也越长。
 
-## Code
+## 代码
 
 ```js
 const mostPerformant = (fns, iterations = 10000) => {
@@ -27,7 +27,7 @@ const mostPerformant = (fns, iterations = 10000) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 mostPerformant([
@@ -41,9 +41,3 @@ mostPerformant([
   }
 ]); // 1
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

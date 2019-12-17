@@ -4,13 +4,13 @@ Generates a UUID in Node.JS.
 
 Use `crypto` API to generate a UUID, compliant with [RFC4122](https://www.ietf.org/rfc/rfc4122.txt) version 4.
 
-## Translate
+## 翻译
 
 在Node.JS中生成一个UUID。
 
 使用`crypto` API生成符合[RFC4122]（https://www.ietf.org/rfc/rfc4122.txt）版本4的UUID。
 
-## Code
+## 代码
 
 ```js
 const crypto = require('crypto');
@@ -20,14 +20,8 @@ const UUIDGeneratorNode = () =>
   );
 ```
 
-## Example
+## 例子
 
 ```js
 UUIDGeneratorNode(); // '79c7c136-60ee-40a2-beb2-856f1feabefc'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

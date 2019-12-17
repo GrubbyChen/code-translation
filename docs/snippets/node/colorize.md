@@ -5,14 +5,14 @@ Add special characters to text to print in color in the console (combined with `
 Use template literals and special characters to add the appropriate color code to the string output.
 For background colors, add a special character that resets the background color at the end of the string.
 
-## Translate
+## 翻译
 
 在文本中添加特殊字符以在控制台中以彩色打印（与`console.log（）`组合）。
 
 使用模板文字和特殊字符将适当的颜色代码添加到字符串输出中。
 对于背景色，请在字符串的末尾添加一个特殊字符以重置背景色。
 
-## Code
+## 代码
 
 ```js
 const colorize = (...args) => ({
@@ -35,16 +35,10 @@ const colorize = (...args) => ({
 });
 ```
 
-## Example
+## 例子
 
 ```js
 console.log(colorize('foo').red); // 'foo' (red letters)
 console.log(colorize('foo', 'bar').bgBlue); // 'foo bar' (blue background)
 console.log(colorize(colorize('foo').yellow, colorize('foo').green).bgWhite); // 'foo bar' (first word in yellow letters, second word in green letters, white background for both)
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

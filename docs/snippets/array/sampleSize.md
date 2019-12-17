@@ -6,7 +6,7 @@ Shuffle the array using the [Fisher-Yates algorithm](https://github.com/30-secon
 Use `Array.prototype.slice()` to get the first `n` elements.
 Omit the second argument, `n` to get only one element at random from the array.
 
-## Translate
+## 翻译
 
 从“数组”获取唯一键处的“ n”个随机元素，直至“数组”的大小。
 
@@ -14,7 +14,7 @@ Omit the second argument, `n` to get only one element at random from the array.
 使用Array.prototype.slice（）获取第一个n元素。
 省略第二个参数“ n”以从数组中随机获取一个元素。
 
-## Code
+## 代码
 
 ```js
 const sampleSize = ([...arr], n = 1) => {
@@ -27,15 +27,9 @@ const sampleSize = ([...arr], n = 1) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 sampleSize([1, 2, 3], 2); // [3,1]
 sampleSize([1, 2, 3], 4); // [2,3,1]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

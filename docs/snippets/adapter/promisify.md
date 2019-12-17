@@ -7,7 +7,7 @@ Converts an asynchronous function to return a promise.
 Use currying to return a function returning a `Promise` that calls the original function.
 Use the `...rest` operator to pass in all the parameters.
 
-## Translate
+## 翻译
 
 转换异步函数以返回promise。
 
@@ -16,7 +16,7 @@ Use the `...rest` operator to pass in all the parameters.
 使用currying返回一个函数，该函数返回一个调用原始函数的Promise。
 使用`... rest`运算符来传递所有参数。
 
-## Code
+## 代码
 
 ```js
 const promisify = func => (...args) =>
@@ -25,15 +25,9 @@ const promisify = func => (...args) =>
   );
 ```
 
-## Example
+## 例子
 
 ```js
 const delay = promisify((d, cb) => setTimeout(cb, d));
 delay(2000).then(() => console.log('Hi!')); // // Promise resolves after 2s
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

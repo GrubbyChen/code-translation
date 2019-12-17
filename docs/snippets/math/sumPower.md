@@ -6,7 +6,7 @@ Use `Array.prototype.fill()` to create an array of all the numbers in the target
 Omit the second argument, `power`, to use a default power of `2`.
 Omit the third argument, `start`, to use a default starting value of `1`.
 
-## Translate
+## 翻译
 
 返回从“开始”到“结束”（包括两端）的所有数字的幂的和。
 
@@ -14,7 +14,7 @@ Omit the third argument, `start`, to use a default starting value of `1`.
 忽略第二个参数power，以使用默认的power 2。
 忽略第三个参数“ start”以使用默认的起始值“ 1”。
 
-## Code
+## 代码
 
 ```js
 const sumPower = (end, power = 2, start = 1) =>
@@ -24,16 +24,10 @@ const sumPower = (end, power = 2, start = 1) =>
     .reduce((a, b) => a + b, 0);
 ```
 
-## Example
+## 例子
 
 ```js
 sumPower(10); // 385
 sumPower(10, 3); // 3025
 sumPower(10, 3, 5); // 2925
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

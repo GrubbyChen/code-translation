@@ -4,19 +4,19 @@ Checks if a value is object-like.
 
 Check if the provided value is not `null` and its `typeof` is equal to `'object'`.
 
-## Translate
+## 翻译
 
 检查值是否类似于对象。
 
 检查所提供的值是否不是'null'，并且其'typeof'是否等于'object'。
 
-## Code
+## 代码
 
 ```js
 const isObjectLike = val => val !== null && typeof val === 'object';
 ```
 
-## Example
+## 例子
 
 ```js
 isObjectLike({}); // true
@@ -24,9 +24,3 @@ isObjectLike([1, 2, 3]); // true
 isObjectLike(x => x); // false
 isObjectLike(null); // false
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

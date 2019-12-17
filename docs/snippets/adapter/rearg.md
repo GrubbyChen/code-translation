@@ -4,19 +4,19 @@ Creates a function that invokes the provided function with its arguments arrange
 
 Use `Array.prototype.map()` to reorder arguments based on `indexes` in combination with the spread operator (`...`) to pass the transformed arguments to `fn`.
 
-## Translate
+## 翻译
 
 创建一个函数，该函数调用提供的函数，其参数根据指定的索引排列。
 
 使用`Array.prototype.map（）`结合散布运算符（`...`）对基于`indexes`的参数进行重新排序，以将转换后的参数传递给`fn`。
 
-## Code
+## 代码
 
 ```js
 const rearg = (fn, indexes) => (...args) => fn(...indexes.map(i => args[i]));
 ```
 
-## Example
+## 例子
 
 ```js
 var rearged = rearg(
@@ -27,9 +27,3 @@ var rearged = rearg(
 );
 rearged('b', 'c', 'a'); // ['a', 'b', 'c']
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

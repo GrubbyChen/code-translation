@@ -7,7 +7,7 @@ Use `document.createElement()` to create a new element.
 Set its `innerHTML` to the string supplied as the argument. 
 Use `ParentNode.firstElementChild` to return the element version of the string.
 
-## Translate
+## 翻译
 
 从字符串创建元素（不将其附加到文档中）。
 如果给定的字符串包含多个元素，则仅返回第一个。
@@ -16,7 +16,7 @@ Use `ParentNode.firstElementChild` to return the element version of the string.
 将其“ innerHTML”设置为作为参数提供的字符串。
 使用“ ParentNode.firstElementChild”返回字符串的元素版本。
 
-## Code
+## 代码
 
 ```js
 const createElement = str => {
@@ -26,7 +26,7 @@ const createElement = str => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 const el = createElement(
@@ -36,9 +36,3 @@ const el = createElement(
 );
 console.log(el.className); // 'container'
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

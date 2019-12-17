@@ -8,7 +8,7 @@ Use `document.querySelector().innerHTML` to update the value of the selected ele
 Omit the fourth parameter, `step`, to use a default step of `1`.
 Omit the fifth parameter, `duration`, to use a default duration of `2000`ms.
 
-## Translate
+## 翻译
 
 为指定的选择器创建一个具有指定范围，步长和持续时间的计数器。
 
@@ -18,7 +18,7 @@ Omit the fifth parameter, `duration`, to use a default duration of `2000`ms.
 省略第四个参数“ step”以使用默认步骤“ 1”。
 省略第五个参数duration以使用默认持续时间2000 ms。
 
-## Code
+## 代码
 
 ```js
 const counter = (selector, start, end, step = 1, duration = 2000) => {
@@ -34,14 +34,8 @@ const counter = (selector, start, end, step = 1, duration = 2000) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 counter('#my-id', 1, 1000, 5, 2000); // Creates a 2-second timer for the element with id="my-id"
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

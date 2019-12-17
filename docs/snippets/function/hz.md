@@ -7,7 +7,7 @@ Use `performance.now()` to get the difference in milliseconds before and after t
 Return the number of cycles per second by converting milliseconds to seconds and dividing it by the time elapsed. 
 Omit the second argument, `iterations`, to use the default of 100 iterations.
 
-## Translate
+## 翻译
 
 返回函数每秒执行一次的次数。
 “ hz”是“赫兹”的单位，频率单位是每秒一个周期。
@@ -16,7 +16,7 @@ Omit the second argument, `iterations`, to use the default of 100 iterations.
 通过将毫秒转换为秒并除以经过的时间，返回每秒的循环数。
 省略第二个参数“迭代”，以使用默认的100次迭代。
 
-## Code
+## 代码
 
 ```js
 const hz = (fn, iterations = 100) => {
@@ -26,7 +26,7 @@ const hz = (fn, iterations = 100) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 // 10,000 element array
@@ -46,9 +46,3 @@ const sumForLoop = () => {
 Math.round(hz(sumReduce)); // 572
 Math.round(hz(sumForLoop)); // 4784
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

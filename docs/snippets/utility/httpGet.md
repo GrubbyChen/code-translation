@@ -7,7 +7,7 @@ Handle the `onload` event, by calling the given `callback` the `responseText`.
 Handle the `onerror` event, by running the provided `err` function.
 Omit the third argument, `err`, to log errors to the console's `error` stream by default.
 
-## Translate
+## 翻译
 
 向传递的URL发出“ GET”请求。
 
@@ -16,7 +16,7 @@ Omit the third argument, `err`, to log errors to the console's `error` stream by
 通过运行提供的`err`函数来处理'onerror'事件。
 省略第三个参数“ err”，默认情况下将错误记录到控制台的“ error”流中。
 
-## Code
+## 代码
 
 ```js
 const httpGet = (url, callback, err = console.error) => {
@@ -28,7 +28,7 @@ const httpGet = (url, callback, err = console.error) => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 httpGet(
@@ -43,9 +43,3 @@ Logs: {
 }
 */
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

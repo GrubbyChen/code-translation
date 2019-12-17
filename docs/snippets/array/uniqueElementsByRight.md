@@ -5,14 +5,14 @@ Returns all unique values of an array, based on a provided comparator function, 
 Use `Array.prototype.reduceRight()` and `Array.prototype.some()` for an array containing only the last unique occurrence of each value, based on the comparator function, `fn`.
 The comparator function takes two arguments: the values of the two elements being compared.
 
-## Translate
+## 翻译
 
 从提供的比较器函数开始，从右开始返回数组的所有唯一值。
 
 根据比较器函数fn，将Array.prototype.reduceRight（）和Array.prototype.some（）用于仅包含每个值的最后唯一出现的数组。
 比较器函数有两个参数：比较的两个元素的值。
 
-## Code
+## 代码
 
 ```js
 const uniqueElementsByRight = (arr, fn) =>
@@ -22,7 +22,7 @@ const uniqueElementsByRight = (arr, fn) =>
   }, []);
 ```
 
-## Example
+## 例子
 
 ```js
 uniqueElementsByRight(
@@ -36,9 +36,3 @@ uniqueElementsByRight(
   (a, b) => a.id == b.id
 ); // [ { id: 0, value: 'e' }, { id: 1, value: 'd' }, { id: 2, value: 'c' } ]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

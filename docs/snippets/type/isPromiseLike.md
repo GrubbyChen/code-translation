@@ -4,13 +4,13 @@ Returns `true` if an object looks like a [`Promise`](https://developer.mozilla.o
 
 Check if the object is not `null`, its `typeof` matches either `object` or `function` and if it has a `.then` property, which is also a `function`.
 
-## Translate
+## 翻译
 
 如果对象看起来像[`Promise`]（https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise），则返回`true`，否则返回false。
 
 检查对象是否不是“ null”，其“ typeof”是否匹配“ object”或“ function”，以及是否具有“ .then”属性，该属性也是“ function”。
 
-## Code
+## 代码
 
 ```js
 const isPromiseLike = obj =>
@@ -19,7 +19,7 @@ const isPromiseLike = obj =>
   typeof obj.then === 'function';
 ```
 
-## Example
+## 例子
 
 ```js
 isPromiseLike({
@@ -30,9 +30,3 @@ isPromiseLike({
 isPromiseLike(null); // false
 isPromiseLike({}); // false
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

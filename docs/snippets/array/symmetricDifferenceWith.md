@@ -4,13 +4,13 @@ Returns the symmetric difference between two arrays, using a provided function a
 
 Use `Array.prototype.filter()` and `Array.prototype.findIndex()` to find the appropriate values.
 
-## Translate
+## 翻译
 
 使用提供的函数作为比较器，返回两个数组之间的对称差。
 
 使用`Array.prototype.filter（）`和`Array.prototype.findIndex（）`查找合适的值。
 
-## Code
+## 代码
 
 ```js
 const symmetricDifferenceWith = (arr, val, comp) => [
@@ -19,7 +19,7 @@ const symmetricDifferenceWith = (arr, val, comp) => [
 ];
 ```
 
-## Example
+## 例子
 
 ```js
 symmetricDifferenceWith(
@@ -28,9 +28,3 @@ symmetricDifferenceWith(
   (a, b) => Math.round(a) === Math.round(b)
 ); // [1, 1.2, 3.9]
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

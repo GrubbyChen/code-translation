@@ -11,7 +11,7 @@ Use `document.execCommand('copy')` to copy to the clipboard.
 Remove the `<textarea>` element from the HTML document.
 Finally, use `Selection().addRange()` to recover the original selected range (if any).
 
-## Translate
+## 翻译
 
 将字符串复制到剪贴板。
 仅由于用户操作（即在click事件监听器中）而起作用。
@@ -24,7 +24,7 @@ NO️**注意：**使用新的异步剪贴板API可以轻松实现相同的功�
 从HTML文档中删除`<textarea>`元素。
 最后，使用“ Selection（）。addRange（）”恢复原始选定范围（如果有）。
 
-## Code
+## 代码
 
 ```js
 const copyToClipboard = str => {
@@ -46,14 +46,8 @@ const copyToClipboard = str => {
 };
 ```
 
-## Example
+## 例子
 
 ```js
 copyToClipboard('Lorem ipsum'); // 'Lorem ipsum' copied to clipboard.
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

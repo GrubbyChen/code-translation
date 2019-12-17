@@ -4,19 +4,19 @@ Delays the execution of an asynchronous function.
 
 Delay executing part of an `async` function, by putting it to sleep, returning a `Promise`.
 
-## Translate
+## 翻译
 
 延迟异步功能的执行。
 
 通过使其进入睡眠状态并返回一个Promise来延迟执行async函数的一部分。
 
-## Code
+## 代码
 
 ```js
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 ```
 
-## Example
+## 例子
 
 ```js
 async function sleepyWork() {
@@ -25,9 +25,3 @@ async function sleepyWork() {
   console.log('I woke up after 1 second.');
 }
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>

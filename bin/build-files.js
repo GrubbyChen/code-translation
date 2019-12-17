@@ -7,22 +7,16 @@ const translate = require('google-translate-api');
 
 const MAIN_TEMPLATE = `# {{title}}
 {{desc}}
-## Translate
+## 翻译
 
 {{translate}}
 
-## Code
+## 代码
 
 {{code}}
-## Example
+## 例子
 
 {{example}}
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>
 `
 
 const sourcePath = 'bin/sourceFiles'

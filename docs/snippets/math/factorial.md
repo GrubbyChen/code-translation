@@ -7,7 +7,7 @@ If `n` is less than or equal to `1`, return `1`.
 Otherwise, return the product of `n` and the factorial of `n - 1`.
 Throws an exception if `n` is a negative number.
 
-## Translate
+## 翻译
 
 计算数字的阶乘。
 
@@ -16,7 +16,7 @@ Throws an exception if `n` is a negative number.
 否则，返回“ n”和阶乘“ n-1”的乘积。
 如果n为负数，则抛出异常。
 
-## Code
+## 代码
 
 ```js
 const factorial = n =>
@@ -29,14 +29,8 @@ const factorial = n =>
     : n * factorial(n - 1);
 ```
 
-## Example
+## 例子
 
 ```js
 factorial(6); // 720
 ```
-
-## CodePlay
-
-<template>
-  <code-play codeplay-id="" />
-</template>
