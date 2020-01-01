@@ -1,4 +1,4 @@
-# getImages
+# getImages（-）
 
 Fetches all images from within an element and puts them into an array
 
@@ -8,7 +8,7 @@ Use `Element.prototype.getElementsByTagName()` to fetch all `<img>` elements ins
 
 从一个元素中获取所有图像并将它们放入一个数组中
 
-使用Element.prototype.getElementsByTagName（）获取提供的元素中的所有<img>元素，使用Array.prototype.map（）映射其各自的<img>元素的每个src属性，然后创建一个“ Set”以消除重复项并返回数组。
+使用Element.prototype.getElementsByTagName()获取提供的元素中的所有<img>元素，使用Array.prototype.map()映射其各自的<img>元素的每个src属性，然后创建一个“ Set”以消除重复项并返回数组。
 
 ## 代码
 

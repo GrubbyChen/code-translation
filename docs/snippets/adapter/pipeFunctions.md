@@ -1,16 +1,9 @@
 # pipeFunctions
 
-Performs left-to-right function composition.
-
-Use `Array.prototype.reduce()` with the spread operator (`...`) to perform left-to-right function composition.
-The first (leftmost) function can accept one or more arguments; the remaining functions must be unary.
-
-## 翻译
-
 执行从左到右的功能合成。
 
-使用带有传播运算符（...）的Array.prototype.reduce（）来执行从左到右的功能合成。
-第一个（最左侧）函数可以接受一个或多个参数。其余功能必须是一元的。
+- 使用带有扩展运算符 (`...`) 的 `Array.prototype.reduce()` 从左到右执行功能组合。
+- 第一个（最左侧）函数可以接受一个或多个参数，其他函数必须是一元的。
 
 ## 代码
 

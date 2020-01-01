@@ -10,9 +10,9 @@ Use `Array.prototype.reverse()` and `Array.prototype.findIndex()` to find the ap
 
 根据提供的迭代器函数，返回应将值插入数组以保持其排序顺序的最高索引。
 
-检查数组是否以降序排序（松散）。
-使用Array.prototype.map（）将迭代器函数应用于数组的所有元素。
-根据提供的迭代器函数，使用Array.prototype.reverse（）和Array.prototype.findIndex（）查找适当的最后一个索引，该元素应插入该位置。
+检查数组是否以降序排序(松散)。
+使用Array.prototype.map()将迭代器函数应用于数组的所有元素。
+根据提供的迭代器函数，使用Array.prototype.reverse()和Array.prototype.findIndex()查找适当的最后一个索引，该元素应插入该位置。
 
 ## 代码
 

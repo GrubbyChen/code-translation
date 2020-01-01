@@ -1,14 +1,6 @@
 # coalesce
 
-Returns the first non-null/undefined argument.
-
-Use `Array.prototype.find()` to return the first non `null`/`undefined` argument.
-
-## 翻译
-
-返回第一个非null / undefined参数。
-
-使用Array.prototype.find（）返回第一个非null / undefined参数。
+返回第一个非 `null` 或 `undefined` 的参数。
 
 ## 代码
 

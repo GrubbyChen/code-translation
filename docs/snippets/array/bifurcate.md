@@ -8,7 +8,7 @@ Use `Array.prototype.reduce()` and `Array.prototype.push()` to add elements to g
 
 将值分为两组。如果`filter`中的元素是真实的，则集合中的对应元素属于第一组；否则，它属于第二组。
 
-使用array.prototype.reduce（）和Array.prototype.push（）将元素添加到基于filter的组中。
+使用array.prototype.reduce()和Array.prototype.push()将元素添加到基于filter的组中。
 
 ## 代码
 

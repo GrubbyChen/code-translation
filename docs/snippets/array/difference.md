@@ -8,7 +8,7 @@ Create a `Set` from `b`, then use `Array.prototype.filter()` on `a` to only keep
 
 返回两个数组之间的差。
 
-从b中创建一个Set，然后在a中使用Array.prototype.filter（）来仅保留b中不包含的值。
+从b中创建一个Set，然后在a中使用Array.prototype.filter()来仅保留b中不包含的值。
 
 ## 代码
 

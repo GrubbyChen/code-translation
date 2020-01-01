@@ -1,4 +1,4 @@
-# runAsync
+# runAsync（可以深入研究）
 
 Runs a function in a separate thread by using a [Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers), allowing long running functions to not block the UI.
 
@@ -8,7 +8,7 @@ Return a promise, listening for `onmessage` and `onerror` events and resolving t
 
 ## 翻译
 
-通过使用[Web Worker]（https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers）在单独的线程中运行函数，从而允许长时间运行的函数不会阻塞UI。
+通过使用[Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)在单独的线程中运行函数，从而允许长时间运行的函数不会阻塞UI。
 
 使用Blob对象URL创建一个新的Worker，其内容应为所提供函数的字符串化版本。
 立即发布回调该函数的返回值。

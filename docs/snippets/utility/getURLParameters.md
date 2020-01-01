@@ -9,7 +9,7 @@ Pass `location.search` as the argument to apply to the current `url`.
 
 返回一个包含当前URL参数的对象。
 
-使用带有适当正则表达式的String.match（）获取所有键值对，Array.prototype.reduce（）映射并将它们组合为单个对象。
+使用带有适当正则表达式的String.match()获取所有键值对，Array.prototype.reduce()映射并将它们组合为单个对象。
 将location.search作为参数传递给当前的URL。
 
 ## 代码

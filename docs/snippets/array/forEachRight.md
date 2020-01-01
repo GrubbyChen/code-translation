@@ -8,7 +8,7 @@ Use `Array.prototype.slice(0)` to clone the given array, `Array.prototype.revers
 
 从数组的最后一个元素开始，对每个数组元素执行一次提供的功能。
 
-使用Array.prototype.slice（0）克隆给定的数组，使用Array.prototype.reverse（）反转它，并使用Array.prototype.forEach（）遍历反转的数组。
+使用Array.prototype.slice(0)克隆给定的数组，使用Array.prototype.reverse()反转它，并使用Array.prototype.forEach()遍历反转的数组。
 
 ## 代码
 

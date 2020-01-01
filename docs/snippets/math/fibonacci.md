@@ -1,16 +1,9 @@
 # fibonacci
 
-Generates an array, containing the Fibonacci sequence, up until the nth term.
+生成一个数组，其中包含[斐波那契序列](https://baike.baidu.com/item/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145?fr=aladdin)，直到长度为 `n`。
 
-Create an empty array of the specific length, initializing the first two values (`0` and `1`).
-Use `Array.prototype.reduce()` to add values into the array, using the sum of the last two values, except for the first two.
-
-## 翻译
-
-生成一个数组，其中包含斐波那契序列，直到第n个任期。
-
-创建一个特定长度的空数组，初始化前两个值（“ 0”和“ 1”）。
-使用“ Array.prototype.reduce（）”，使用前两个值（前两个值除外）之和将值添加到数组中。
+- 创建一个指定长度的空数组，前两个值初始化为 `0` 和 `1`。
+- 使用 `Array.prototype.reduce()`，从第三个值开始计算前两个值之和，并将值添加到数组中。
 
 ## 代码
 

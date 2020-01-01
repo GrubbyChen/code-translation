@@ -9,8 +9,8 @@ Use `Array.prototype.reduce()` to create an object, where the keys are produced 
 
 根据给定的函数对数组的元素进行分组。
 
-使用Array.prototype.map（）将数组的值映射到函数或属性名称。
-使用Array.prototype.reduce（）创建一个对象，从映射结果中生成键。
+使用Array.prototype.map()将数组的值映射到函数或属性名称。
+使用Array.prototype.reduce()创建一个对象，从映射结果中生成键。
 
 ## 代码
 

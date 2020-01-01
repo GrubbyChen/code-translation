@@ -10,8 +10,8 @@ Use `Array.prototype.filter()` to remove elements for which `fn` returns falsy v
 
 返回提供的函数为其返回真值的最后一个元素的索引。
 
-使用Array.prototype.map（）将每个元素映射到具有索引和值的数组。
-使用Array.prototype.filter（）删除fn返回虚假值的元素，Array.prototype.pop（）获取最后一个元素。
+使用Array.prototype.map()将每个元素映射到具有索引和值的数组。
+使用Array.prototype.filter()删除fn返回虚假值的元素，Array.prototype.pop()获取最后一个元素。
 找不到时，“-1”是默认值。
 
 ## 代码

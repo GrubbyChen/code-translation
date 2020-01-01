@@ -8,7 +8,7 @@ Create a `Set` by applying `fn` to each array's elements, then use `Array.protot
 
 将提供的函数应用于两个数组的每个数组元素后，返回两个数组之间的对称差。
 
-通过对每个数组的元素应用fn来创建Set，然后对每个元素使用Array.prototype.filter（），以仅保留彼此不包含的值。
+通过对每个数组的元素应用fn来创建Set，然后对每个元素使用Array.prototype.filter()，以仅保留彼此不包含的值。
 
 ## 代码
 

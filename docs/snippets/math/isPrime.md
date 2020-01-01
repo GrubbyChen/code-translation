@@ -1,16 +1,10 @@
 # isPrime
 
-Checks if the provided integer is a prime number.
-
-Check numbers from `2` to the square root of the given number.
-Return `false` if any of them divides the given number, else return `true`, unless the number is less than `2`.
-
-## 翻译
-
 检查提供的整数是否为质数。
 
-检查从2到给定数字平方根的数字。
-如果它们中的任何一个除以给定的数字，则返回“ false”，否则返回“ true”，除非该数字小于2。
+- 计算给定数字平方根的值，赋予变量 `boundary`。
+- 如果给定的数字，不能被从 `2` 到 `boundary` 的值中的任何一个整除，则为质数。
+- 小于 `2` 的值不是质数。
 
 ## 代码
 

@@ -8,7 +8,7 @@ Return `Array.prototype.slice(1)` if the array's `length` is more than `1`, othe
 
 返回数组中除第一个元素外的所有元素。
 
-如果数组的长度大于1，则返回Array.prototype.slice（1），否则返回整个数组。
+如果数组的长度大于1，则返回Array.prototype.slice(1)，否则返回整个数组。
 
 ## 代码
 

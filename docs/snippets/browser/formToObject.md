@@ -1,4 +1,4 @@
-# formToObject
+# formToObject（-）
 
 Encode a set of form elements as an `object`.
 
@@ -9,8 +9,8 @@ Collect the object from the array, using `Array.prototype.reduce()`.
 
 将一组表单元素编码为一个“对象”。
 
-使用FormData构造函数将HTML form转换为FormData，将Array.from（）转换为数组。
-使用“ Array.prototype.reduce（）”从数组中收集对象。
+使用FormData构造函数将HTML form转换为FormData，将Array.from()转换为数组。
+使用“ Array.prototype.reduce()”从数组中收集对象。
 
 ## 代码
 

@@ -1,14 +1,6 @@
 # vectorDistance
 
-Returns the distance between two vectors.
-
-Use `Array.prototype.reduce()`, `Math.pow()` and `Math.sqrt()` to calculate the Euclidean distance between two vectors.
-
-## 翻译
-
-返回两个向量之间的距离。
-
-使用Array.prototype.reduce（），Math.pow（）和Math.sqrt（）计算两个向量之间的欧几里得距离。
+返回两个[向量](https://baike.baidu.com/item/%E5%90%91%E9%87%8F/1396519?fr=aladdin)之间的距离。
 
 ## 代码
 

@@ -1,18 +1,6 @@
 # toOrdinalSuffix
 
-Adds an ordinal suffix to a number.
-
-Use the modulo operator (`%`) to find values of single and tens digits.
-Find which ordinal pattern digits match.
-If digit is found in teens pattern, use teens ordinal.
-
-## 翻译
-
 在数字后添加序数后缀。
-
-使用模运算符（`％`）查找一位和十位数的值。
-查找匹配的序号数字。
-如果在青少年模式中找到数字，请使用青少年序数。
 
 ## 代码
 

@@ -1,14 +1,8 @@
 # UUIDGeneratorBrowser
 
-Generates a UUID in a browser.
+在浏览器中生成 `UUID`。
 
-Use `crypto` API to generate a UUID, compliant with [RFC4122](https://www.ietf.org/rfc/rfc4122.txt) version 4.
-
-## 翻译
-
-在浏览器中生成UUID。
-
-使用`crypto` API生成符合[RFC4122]（https://www.ietf.org/rfc/rfc4122.txt）版本4的UUID。
+- 使用 `crypto` API 生成符合 [RFC4122](https://www.ietf.org/rfc/rfc4122.txt) v4 版本的 `UUID`。
 
 ## 代码
 

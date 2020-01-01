@@ -8,7 +8,7 @@ Use `Array.prototype.filter()` to create a new array that contains every nth ele
 
 返回数组中的每个第n个元素。
 
-使用Array.prototype.filter（）创建一个包含给定数组的第n个元素的新数组。
+使用Array.prototype.filter()创建一个包含给定数组的第n个元素的新数组。
 
 ## 代码
 

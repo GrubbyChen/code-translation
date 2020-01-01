@@ -1,14 +1,8 @@
 # isArrayLike
 
-Checks if the provided argument is array-like (i.e. is iterable).
+检查传入的参数是否为类数组对象。
 
-Check if the provided argument is not `null` and that its `Symbol.iterator` property is a function.
-
-## 翻译
-
-检查所提供的参数是否类似于数组（即可迭代）。
-
-检查所提供的参数是否不是null，并且其Symbol.iterator属性是否为函数。
+- 检查传入的参数是否不是 `null`，并且其 `Symbol.iterator` 属性是否为函数。
 
 ## 代码
 

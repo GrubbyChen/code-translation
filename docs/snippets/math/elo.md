@@ -1,4 +1,4 @@
-# elo
+# elo（没理解）
 
 Computes the new ratings between two or more opponents using the [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system). It takes an array
 of pre-ratings and returns an array containing post-ratings.
@@ -11,11 +11,11 @@ Omit the second argument to use the default `kFactor` of 32.
 
 ## 翻译
 
-使用[Elo评分系统]（https://en.wikipedia.org/wiki/Elo_rating_system）计算两个或多个对手之间的新评分。它需要一个数组
+使用[Elo评分系统](https://en.wikipedia.org/wiki/Elo_rating_system)计算两个或多个对手之间的新评分。它需要一个数组
 的前评分，并返回包含后评分的数组。
-阵列应从性能最佳到性能最差的顺序排列（优胜者->失败者）。
+阵列应从性能最佳到性能最差的顺序排列(优胜者->失败者)。
 
-使用指数运算符“ **”和数学运算符来计算预期分数（获胜机会）。
+使用指数运算符“ **”和数学运算符来计算预期分数(获胜机会)。
 并计算每个对手的新等级。
 循环浏览等级，使用每个排列以成对方式计算每个玩家的Elo后等级。
 省略第二个参数以使用默认的kFactor值32。

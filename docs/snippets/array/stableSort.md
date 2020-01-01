@@ -12,9 +12,9 @@ Use `Array.prototype.map()` to convert back to the initial array items.
 对数组执行稳定的排序，并在它们的值相同时保留项目的初始索引。
 不更改原始数组，而是返回一个新数组。
 
-使用Array.prototype.map（）将输入数组的每个元素与其对应的索引配对。
-使用“ Array.prototype.sort（）”和“比较”功能对列表进行排序，如果比较的项目相等，则保留其初始顺序。
-使用Array.prototype.map（）转换回初始数组项。
+使用Array.prototype.map()将输入数组的每个元素与其对应的索引配对。
+使用“ Array.prototype.sort()”和“比较”功能对列表进行排序，如果比较的项目相等，则保留其初始顺序。
+使用Array.prototype.map()转换回初始数组项。
 
 ## 代码
 

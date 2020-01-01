@@ -1,4 +1,4 @@
-# defer
+# defer（-）
 
 Defers invoking a function until the current call stack has cleared.
 
@@ -8,7 +8,7 @@ Use `setTimeout()` with a timeout of 1ms to add a new event to the browser event
 
 推迟调用函数，直到清除当前调用堆栈。
 
-使用`setTimeout（）`，超时时间为1ms，可将新事件添加到浏览器事件队列中，并允许渲染引擎完成其工作。使用spread（`...`）运算符可以为函数提供任意数量的参数。
+使用`setTimeout()`，超时时间为1ms，可将新事件添加到浏览器事件队列中，并允许渲染引擎完成其工作。使用spread(`...`)运算符可以为函数提供任意数量的参数。
 
 ## 代码
 

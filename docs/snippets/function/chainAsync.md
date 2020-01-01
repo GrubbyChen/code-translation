@@ -1,14 +1,8 @@
 # chainAsync
 
-Chains asynchronous functions.
-
-Loop through an array of functions containing asynchronous events, calling `next` when each asynchronous event has completed.
-
-## 翻译
-
 链接异步函数。
 
-遍历包含异步事件的函数数组，并在每个异步事件完成后调用“ next”。
+- 遍历包含异步事件的函数数组，并在每个异步事件完成后调用 `next`。
 
 ## 代码
 

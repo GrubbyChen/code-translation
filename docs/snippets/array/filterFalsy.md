@@ -8,7 +8,7 @@ Use `Array.prototype.filter()` to get an array containing only truthy values.
 
 过滤出数组中的伪造值。
 
-使用Array.prototype.filter（）获得仅包含真实值的数组。
+使用Array.prototype.filter()获得仅包含真实值的数组。
 
 ## 代码
 

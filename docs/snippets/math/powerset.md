@@ -1,14 +1,6 @@
 # powerset
 
-Returns the powerset of a given array of numbers.
-
-Use `Array.prototype.reduce()` combined with `Array.prototype.map()` to iterate over elements and combine into an array containing all combinations.
-
-## 翻译
-
-返回给定数字数组的幂集。
-
-结合使用Array.prototype.reduce（）和Array.prototype.map（）来遍历元素并合并成包含所有组合的数组。
+返回给定数字数组的[幂集](https://baike.baidu.com/item/%E5%B9%82%E9%9B%86/9555341?fr=aladdin)。
 
 ## 代码
 

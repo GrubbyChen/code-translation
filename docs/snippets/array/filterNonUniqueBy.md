@@ -9,7 +9,7 @@ The comparator function takes four arguments: the values of the two elements bei
 
 根据提供的比较器功能，过滤出数组中的非唯一值。
 
-根据比较器函数fn，将Array.prototype.filter（）和Array.prototype.every（）用于仅包含唯一值的数组。
+根据比较器函数fn，将Array.prototype.filter()和Array.prototype.every()用于仅包含唯一值的数组。
 比较器函数有四个参数：要比较的两个元素的值及其索引。
 
 ## 代码

@@ -1,4 +1,4 @@
-# bindAll
+# bindAll（没理解）
 
 Binds methods of an object to the object itself, overwriting the existing method.
 
@@ -8,7 +8,7 @@ Use `Array.prototype.forEach()` to return a `function` that uses `Function.proto
 
 将对象的方法绑定到对象本身，从而覆盖现有方法。
 
-使用Array.prototype.forEach（）返回一个函数，该函数使用Function.prototype.apply（）将给定的上下文（obj）应用于每个指定的函数fn。
+使用Array.prototype.forEach()返回一个函数，该函数使用Function.prototype.apply()将给定的上下文(obj)应用于每个指定的函数fn。
 
 ## 代码
 

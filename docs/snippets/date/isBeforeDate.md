@@ -1,14 +1,6 @@
 # isBeforeDate
 
-Check if a date is before another date.
-
-Use the less than operator (`<`) to check if the first date comes before the second one.
-
-## 翻译
-
-检查某个日期是否早于另一个日期。
-
-使用小于运算符（`<`）检查第一个日期是否早于第二个日期。
+检查日期是否早于另一个日期。
 
 ## 代码
 

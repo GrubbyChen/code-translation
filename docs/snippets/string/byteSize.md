@@ -6,9 +6,9 @@ Convert a given string to a [`Blob` Object](https://developer.mozilla.org/en-US/
 
 ## 翻译
 
-返回字符串的长度（以字节为单位）。
+返回字符串的长度(以字节为单位)。
 
-将给定的字符串转换为[`Blob`对象]（https://developer.mozilla.org/en-US/docs/Web/API/Blob）并找到其大小。
+将给定的字符串转换为[`Blob`对象](https://developer.mozilla.org/en-US/docs/Web/API/Blob)并找到其大小。
 
 ## 代码
 

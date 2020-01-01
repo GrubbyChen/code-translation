@@ -1,4 +1,4 @@
-# partial
+# partial（-）
 
 Creates a function that invokes `fn` with `partials` prepended to the arguments it receives.
 
@@ -8,7 +8,7 @@ Use the spread operator (`...`) to prepend `partials` to the list of arguments o
 
 创建一个函数，该函数使用在接收到的参数之前的`partials'调用`fn`。
 
-使用扩展运算符（`...`）将`partials`放在`fn`的参数列表之前。
+使用扩展运算符(`...`)将`partials`放在`fn`的参数列表之前。
 
 ## 代码
 

@@ -1,28 +1,14 @@
-# copyToClipboard
+# copyToClipboard（需要 Demo）
 
-Copy a string to the clipboard. 
-Only works as a result of user action (i.e. inside a `click` event listener).
+将字符串复制到剪贴板，在用户操作后起作用（比如在 `click` 事件监听器中）。
 
-⚠️ **NOTICE:** The same functionality can be easily implemented by using the new asynchronous Clipboard API, which is still experimental but should be used in the future instead of this snippet. Find out more about it [here](https://github.com/w3c/clipboard-apis/blob/master/explainer.adoc#writing-to-the-clipboard).
+⚠️ **注意：** 使用新的异步剪贴板 API 可以轻松实现相同的功能，该 API 仍处于试验阶段，应在将来代替此代码段使用。在[此处](https://github.com/w3c/clipboard-apis/blob/master/explainer.adoc#writing-to-the-clipboard)中找到更多有关它的信息。
 
-Create a new `<textarea>` element, fill it with the supplied data and add it to the HTML document.
-Use `Selection.getRangeAt()`to store the selected range (if any).
-Use `document.execCommand('copy')` to copy to the clipboard.
-Remove the `<textarea>` element from the HTML document.
-Finally, use `Selection().addRange()` to recover the original selected range (if any).
-
-## 翻译
-
-将字符串复制到剪贴板。
-仅由于用户操作（即在click事件监听器中）而起作用。
-
-NO️**注意：**使用新的异步剪贴板API可以轻松实现相同的功能，该API仍处于试验阶段，应在将来代替此代码段使用。在[此处]（https://github.com/w3c/clipboard-apis/blob/master/explainer.adoc#writing-to-the-clipboard）中找到更多有关它的信息。
-
-创建一个新的<textarea>元素，用提供的数据填充并将其添加到HTML文档中。
-使用“ Selection.getRangeAt（）”存储所选范围（如果有）。
-使用`document.execCommand（'copy'）`复制到剪贴板。
-从HTML文档中删除`<textarea>`元素。
-最后，使用“ Selection（）。addRange（）”恢复原始选定范围（如果有）。
+- 创建一个新的 `<textarea>` 元素，用提供的数据填充，并将其添加到 `body` 中。
+- 使用 `Selection.getRangeAt()` 存储所选范围（如果有）。
+- 使用 `document.execCommand('copy')` 复制到剪贴板。
+- 从 `body` 中删除 `<textarea>` 元素。
+- 最后，使用 `Selection().addRange()` 恢复原始选定范围（如果有）。
 
 ## 代码
 

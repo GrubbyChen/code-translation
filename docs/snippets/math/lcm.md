@@ -1,16 +1,9 @@
 # lcm
 
-Returns the least common multiple of two or more numbers.
+返回两个或多个数字的[最小公倍数](https://baike.baidu.com/item/%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/6192375?fr=aladdin)。
 
-Use the greatest common divisor (GCD) formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
-The GCD formula uses recursion.
-
-## 翻译
-
-返回两个或多个数字的最小公倍数。
-
-使用最大公因数（GCD）公式和lcm（x，y）= x * y / gcd（x，y）`的事实来确定最小公倍数。
-GCD公式使用递归。
+- 使用最大公因数 `gcd` 公式和 `lcm` 函数来确定最小公倍数。
+- `gcd` 公式使用递归。
 
 ## 代码
 

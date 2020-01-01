@@ -8,7 +8,7 @@ Loop through the array, using a `Array.prototype.reduceRight()` and accumulating
 
 从数组末尾删除元素，直到传递的函数返回“ true”为止。返回移除的元素。
 
-使用一个Array.prototype.reduceRight（）遍历数组，并在函数返回假值时累加元素。
+使用一个Array.prototype.reduceRight()遍历数组，并在函数返回假值时累加元素。
 
 ## 代码
 

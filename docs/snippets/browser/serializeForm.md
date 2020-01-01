@@ -1,4 +1,4 @@
-# serializeForm
+# serializeForm（-）
 
 Encode a set of form elements as a query string.
 
@@ -10,9 +10,9 @@ Use `Array.prototype.join()` with appropriate argumens to produce an appropriate
 
 将一组表单元素编码为查询字符串。
 
-使用FormData构造函数将HTML form转换为FormData，将Array.from（）转换为数组，并使用map函数作为第二个参数。
-使用Array.prototype.map（）和window.encodeURIComponent（）编码每个字段的值。
-将Array.prototype.join（）与适当的参数一起使用以产生适当的查询字符串。
+使用FormData构造函数将HTML form转换为FormData，将Array.from()转换为数组，并使用map函数作为第二个参数。
+使用Array.prototype.map()和window.encodeURIComponent()编码每个字段的值。
+将Array.prototype.join()与适当的参数一起使用以产生适当的查询字符串。
 
 ## 代码
 

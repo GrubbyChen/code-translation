@@ -8,7 +8,7 @@ Use `Array.prototype.filter()` for an array containing only the unique values.
 
 筛选出数组中的非唯一值。
 
-对仅包含唯一值的数组使用“ Array.prototype.filter（）”。
+对仅包含唯一值的数组使用“ Array.prototype.filter()”。
 
 ## 代码
 

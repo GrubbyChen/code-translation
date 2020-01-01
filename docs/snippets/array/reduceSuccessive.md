@@ -6,9 +6,9 @@ Use `Array.prototype.reduce()` to apply the given function to the given array, s
 
 ## 翻译
 
-对一个累加器和该数组中的每个元素（从左到右）应用一个函数，返回一个依次减小值的数组。
+对一个累加器和该数组中的每个元素(从左到右)应用一个函数，返回一个依次减小值的数组。
 
-使用Array.prototype.reduce（）将给定函数应用于给定数组，存储每个新结果。
+使用Array.prototype.reduce()将给定函数应用于给定数组，存储每个新结果。
 
 ## 代码
 

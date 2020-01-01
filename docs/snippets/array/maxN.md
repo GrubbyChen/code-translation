@@ -10,10 +10,10 @@ Omit the second argument, `n`, to get a one-element array.
 ## 翻译
 
 从提供的数组中返回最大n个元素。
-如果`n`大于或等于提供的数组长度，则返回原始数组（降序排列）。
+如果`n`大于或等于提供的数组长度，则返回原始数组(降序排列)。
 
-将Array.prototype.sort（）与散布运算符（...）结合使用可创建该数组的浅表副本，并按降序对其进行排序。
-使用Array.prototype.slice（）获取指定数量的元素。
+将Array.prototype.sort()与散布运算符(...)结合使用可创建该数组的浅表副本，并按降序对其进行排序。
+使用Array.prototype.slice()获取指定数量的元素。
 省略第二个参数n，以获取一个单元素数组。
 
 ## 代码

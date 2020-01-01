@@ -1,14 +1,8 @@
 # runPromisesInSeries
 
-Runs an array of promises in series.
+连续运行一系列 `Promise`。
 
-Use `Array.prototype.reduce()` to create a promise chain, where each promise returns the next promise when resolved.
-
-## 翻译
-
-连续运行一系列诺言。
-
-使用Array.prototype.reduce（）创建一个承诺链，其中每个承诺在解决后都会返回下一个承诺。
+- 使用 `Array.prototype.reduce()` 创建一个 `Promise` 队列，其中每个 `Promise` 在调用 `resolve` 后都会返回下一个 `Promise`。
 
 ## 代码
 

@@ -1,16 +1,9 @@
 # omit
 
-Omits the key-value pairs corresponding to the given keys from an object.
+从对象中移除给定键对应的数据。
 
-Use `Object.keys(obj)`, `Array.prototype.filter()` and `Array.prototype.includes()` to remove the provided keys.
-Use `Array.prototype.reduce()` to convert the filtered keys back to an object with the corresponding key-value pairs.
-
-## 翻译
-
-从对象中省略与给定键对应的键值对。
-
-使用Object.keys（obj），Array.prototype.filter（）和Array.prototype.includes（）删除提供的键。
-使用Array.prototype.reduce（）将过滤后的键转换回具有相应键值对的对象。
+- 使用 `Object.keys(obj)`、`Array.prototype.filter()` 和 `Array.prototype.includes()` 删除提供的键。
+- 使用 `Array.prototype.reduce()` 将过滤后的键转换回具有相应键值对的对象。
 
 ## 代码
 

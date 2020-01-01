@@ -1,16 +1,9 @@
 # bindKey
 
-Creates a function that invokes the method at a given key of an object, optionally adding any additional supplied parameters to the beginning of the arguments.
+创建一个函数，该函数在对象的给定键处调用该方法，可以选择传入更多的参数进行合并。
 
-Return a `function` that uses `Function.prototype.apply()` to bind `context[fn]` to `context`.
-Use the spread operator (`...`) to prepend any additional supplied parameters to the arguments.
-
-## 翻译
-
-创建一个函数，该函数在对象的给定键处调用该方法，可以选择将任何其他提供的参数添加到参数的开头。
-
-返回一个使用Function.prototype.apply（）将functioncontext [fn]绑定到context的function。
-使用扩展运算符（`...`）在参数中附加任何其他提供的参数。
+- 返回一个使用 `Function.prototype.apply()` 的函数，将给定的上下文应用于 `context[fn]`。
+- 使用扩展运算符（`...`）在参数中将传入的其他参数进行合并。
 
 ## 代码
 

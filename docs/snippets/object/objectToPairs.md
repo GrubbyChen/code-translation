@@ -1,14 +1,8 @@
 # objectToPairs
 
-Creates an array of key-value pair arrays from an object.
+从一个对象创建一个键值对数组。
 
-Use `Object.keys()` and `Array.prototype.map()` to iterate over the object's keys and produce an array with key-value pairs.
-
-## 翻译
-
-从一个对象创建一个键-值对数组。
-
-使用Object.keys（）和Array.prototype.map（）遍历对象的键并生成具有键值对的数组。
+- 使用 `Object.keys()` 和 `Array.prototype.map()` 遍历对象的键并生成具有键值对的数组。
 
 ## 代码
 

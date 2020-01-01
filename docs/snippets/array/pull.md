@@ -9,8 +9,8 @@ Use `Array.prototype.length = 0` to mutate the passed in an array by resetting i
 
 突变原始数组以滤除指定的值。
 
-使用Array.prototype.filter（）和Array.prototype.includes（）提取不需要的值。
-使用“ Array.prototype.length = 0”通过将其传递的长度重置为零来改变传递的数组，并使用“ Array.prototype.push（）”仅使用提取的值重新填充它。
+使用Array.prototype.filter()和Array.prototype.includes()提取不需要的值。
+使用“ Array.prototype.length = 0”通过将其传递的长度重置为零来改变传递的数组，并使用“ Array.prototype.push()”仅使用提取的值重新填充它。
 
 ## 代码
 

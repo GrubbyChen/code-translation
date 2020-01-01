@@ -1,18 +1,10 @@
 # unflattenObject
 
-Unflatten an object with the paths for keys.
-
-Use `Object.keys(obj)` combined with `Array.prototype.reduce()` to convert flattened path node to a leaf node.
-If the value of a key contains a dot delimiter (`.`), use `Array.prototype.split('.')`, string transformations and `JSON.parse()` to create an object, then `Object.assign()` to create the leaf node.
-Otherwise, add the appropriate key-value pair to the accumulator object.
-
-## 翻译
-
 使用键的路径展开对象。
 
-结合使用Object.keys（obj）和Array.prototype.reduce（）将扁平化的路径节点转换为叶节点。
-如果键的值包含点定界符（。），请使用Array.prototype.split（..），字符串转换和JSON.parse（）创建对象，然后使用Object.assign （）`创建叶子节点。
-否则，将适当的键值对添加到累加器对象。
+- 使用 Object.keys(obj) 和 Array.prototype.reduce() 将扁平化的路径节点转换为叶节点。
+- 如果键的值包含符号 `.`，解析成对象并使用键的路径展开对象。
+- 否则，直接将键值对添加到目标对象。
 
 ## 代码
 

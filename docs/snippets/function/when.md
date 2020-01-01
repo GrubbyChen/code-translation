@@ -1,14 +1,6 @@
 # when
 
-Tests a value, `x`, against a predicate function. If `true`, return `fn(x)`. Else, return `x`. 
-
-Return a function expecting a single value, `x`, that returns the appropriate value based on `pred`.
-
-## 翻译
-
-针对谓词函数测试值“ x”。如果为true，则返回fn（x）。否则，返回`x`。
-
-返回一个期望值为x的函数，该函数基于pred返回合适的值。
+当 `pred` 函数返回 `true` 时，返回 `fn(x)`，否则返回 `x`。
 
 ## 代码
 

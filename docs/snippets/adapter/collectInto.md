@@ -1,4 +1,4 @@
-# collectInto
+# collectInto（*）
 
 Changes a function that accepts an array into a variadic function.
 

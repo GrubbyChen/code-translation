@@ -8,7 +8,7 @@ Use `Array.prototype.filter()` to remove values that are not part of `values`, d
 
 返回同时出现在两个数组中的元素的数组。
 
-使用Array.prototype.filter（）删除不属于value的值，这些值是由Array.prototype.includes（）确定的。
+使用Array.prototype.filter()删除不属于value的值，这些值是由Array.prototype.includes()确定的。
 
 ## 代码
 

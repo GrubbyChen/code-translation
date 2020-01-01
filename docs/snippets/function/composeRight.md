@@ -1,16 +1,9 @@
 # composeRight
 
-Performs left-to-right function composition.
+从左到右的依次执行多个函数。
 
-Use `Array.prototype.reduce()` to perform left-to-right function composition.
-The first (leftmost) function can accept one or more arguments; the remaining functions must be unary.
-
-## 翻译
-
-执行从左到右的功能合成。
-
-使用Array.prototype.reduce（）执行从左到右的功能合成。
-第一个（最左侧）函数可以接受一个或多个参数。其余功能必须是一元的。
+- 使用 `Array.prototype.reduce()` 实现从左到右的函数合成。
+- 第一个函数（最先执行）可以接受一个或多个参数，其余函数只能接受一个参数。
 
 ## 代码
 

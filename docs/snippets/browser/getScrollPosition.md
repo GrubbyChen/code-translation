@@ -1,16 +1,6 @@
 # getScrollPosition
 
-Returns the scroll position of the current page.
-
-Use `pageXOffset` and `pageYOffset` if they are defined, otherwise `scrollLeft` and `scrollTop`.
-You can omit `el` to use a default value of `window`.
-
-## 翻译
-
 返回当前页面的滚动位置。
-
-如果定义了`pageXOffset`和`pageYOffset`，否则使用`scrollLeft`和`scrollTop`。
-您可以省略“ el”以使用默认值“ window”。
 
 ## 代码
 

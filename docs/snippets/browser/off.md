@@ -9,8 +9,7 @@ Omit the fourth argument `opts` to use `false` or specify it based on the option
 
 从元素中删除事件侦听器。
 
-使用EventTarget.removeEventListener（）从元素中删除事件监听器。
-忽略第四个参数“ opts”以使用“ false”或根据添加事件侦听器时使用的选项进行指定。
+- 使用 `EventTarget.removeEventListener()` 从元素中删除事件监听器。
 
 ## 代码
 

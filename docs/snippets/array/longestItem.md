@@ -12,7 +12,7 @@ Use `Array.prototype.reduce()`, comparing the `length` of objects to find the lo
 如果多个对象的长度相同，则将返回第一个。
 如果未提供任何参数，则返回`undefined`。
 
-使用“ Array.prototype.reduce（）”，比较对象的“长度”以找到最长的对象。
+使用“ Array.prototype.reduce()”，比较对象的“长度”以找到最长的对象。
 
 ## 代码
 

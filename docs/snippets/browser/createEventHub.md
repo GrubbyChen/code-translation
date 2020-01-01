@@ -1,22 +1,11 @@
 # createEventHub
 
-Creates a pub/sub ([publish–subscribe](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)) event hub with `emit`, `on`, and `off` methods.
+使用 `emit`、`on` 和 `off`方法创建一个 pub/sub 事件总线（发布-订阅）。
 
-Use `Object.create(null)` to create an empty `hub` object that does not inherit properties from `Object.prototype`.
-For `emit`, resolve the array of handlers based on the `event` argument and then run each one with `Array.prototype.forEach()` by passing in the data as an argument.
-For `on`, create an array for the event if it does not yet exist, then use `Array.prototype.push()` to add the handler
-to the array.
-For `off`, use `Array.prototype.findIndex()` to find the index of the handler in the event array and remove it using `Array.prototype.splice()`.
-
-## 翻译
-
-使用`emit`，`on`和`off`方法创建一个pub / sub（[publish-subscribe]（https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern））事件中心。
-
-使用Object.create（null）创建一个空的hub对象，该对象不继承Object.prototype的属性。
-对于`emit`，请基于`event`参数解析处理程序数组，然后通过将数据作为参数传入来使用`Array.prototype.forEach（）`运行每个处理程序。
-对于on，为事件创建一个数组（如果尚不存在），然后使用Array.prototype.push（）添加处理程序。
-到阵列。
-对于“ off”，使用“ Array.prototype.findIndex（）”在事件数组中查找处理程序的索引，然后使用“ Array.prototype.splice（）”将其删除。
+- 使用 `Object.create(null)` 创建一个空的 `hub` 对象，该对象不继承 `Object.prototype` 的属性。
+- `on` 函数为事件创建一个数组（如果尚不存在），然后使用 `Array.prototype.push()` 可以添加多个句柄。
+- `off` 函数使用 `Array.prototype.findIndex()` 在事件数组中查找处理程序的索引，然后使用 `Array.prototype.splice()` 将其删除。
+- `emit` 函数基于 `event` 参数解析句柄数组，`Array.prototype.forEach()` 运行每个句柄并把参数传入。
 
 ## 代码
 

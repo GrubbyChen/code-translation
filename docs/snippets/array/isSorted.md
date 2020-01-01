@@ -11,7 +11,7 @@ Return `0` if the `direction` changes or the `direction` if the last element is 
 如果数组按升序排序，则返回“ 1”，如果按降序排序，则返回“ -1”，如果未排序则返回“ 0”。
 
 计算前两个元素的排序方向。
-使用Object.entries（）遍历数组对象并成对比较它们。
+使用Object.entries()遍历数组对象并成对比较它们。
 如果方向更改，则返回0；如果到达最后一个元素，则返回方向。
 
 ## 代码

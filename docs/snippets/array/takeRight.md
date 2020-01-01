@@ -8,7 +8,7 @@ Use `Array.prototype.slice()` to create a slice of the array with `n` elements t
 
 返回从末尾删除n个元素的数组。
 
-使用Array.prototype.slice（）来创建数组的一个切片，其中数组的末尾取n个元素。
+使用Array.prototype.slice()来创建数组的一个切片，其中数组的末尾取n个元素。
 
 ## 代码
 

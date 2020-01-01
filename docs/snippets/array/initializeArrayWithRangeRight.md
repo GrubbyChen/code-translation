@@ -8,9 +8,9 @@ You can omit `step` to use a default value of `1`.
 
 ## 翻译
 
-初始化一个数组，该数组包含指定范围内的数字（反向），其中“ start”和“ end”包含其共同点“ step”。
+初始化一个数组，该数组包含指定范围内的数字(反向)，其中“ start”和“ end”包含其共同点“ step”。
 
-使用Array.from（Math.ceil（（end + 1-start）/ step））创建一个所需长度的数组（元素数量等于`（end-start）/ step`或`（ end + 1-start）/ step（包括结束符），使用Array.prototype.map（）填充范围内的所需值。
+使用Array.from(Math.ceil((end + 1-start)/ step))创建一个所需长度的数组(元素数量等于`(end-start)/ step`或`( end + 1-start)/ step(包括结束符)，使用Array.prototype.map()填充范围内的所需值。
 您可以省略“开始”以使用默认值“ 0”。
 您可以省略`step`以使用默认值'1'。
 

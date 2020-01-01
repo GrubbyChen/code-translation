@@ -11,7 +11,7 @@ Omit the third argument, `err`, to log errors to the console's `error` stream by
 
 向传递的URL发出“ GET”请求。
 
-使用[`XMLHttpRequest`]（https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest）Web api对给定的“ url”发出“ get”请求。
+使用[`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)Web api对给定的“ url”发出“ get”请求。
 通过将给定的“回调”称为“ responseText”来处理“ onload”事件。
 通过运行提供的`err`函数来处理'onerror'事件。
 省略第三个参数“ err”，默认情况下将错误记录到控制台的“ error”流中。

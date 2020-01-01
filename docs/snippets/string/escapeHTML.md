@@ -8,7 +8,7 @@ Use `String.prototype.replace()` with a regexp that matches the characters that 
 
 转义用于HTML的字符串。
 
-使用String.prototype.replace（）和正则表达式匹配需要转义的字符，并使用回调函数通过字典（对象）将每个字符实例替换为其关联的转义字符。
+使用String.prototype.replace()和正则表达式匹配需要转义的字符，并使用回调函数通过字典(对象)将每个字符实例替换为其关联的转义字符。
 
 ## 代码
 

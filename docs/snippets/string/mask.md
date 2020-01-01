@@ -10,7 +10,7 @@ Omit the third argument, `mask`, to use a default character of `'*'` for the mas
 
 用指定的掩码字符替换除最后一个字符以外的所有字符。
 
-使用`String.prototype.slice（）`抓取将保持未屏蔽的字符部分，并使用`String.padStart（）`用掩码字符填充字符串的开头，直到原始长度。
+使用`String.prototype.slice()`抓取将保持未屏蔽的字符部分，并使用`String.padStart()`用掩码字符填充字符串的开头，直到原始长度。
 省略第二个参数num以使默认的4个字符不被屏蔽。如果num为负数，则未屏蔽的字符将在字符串的开头。
 省略第三个参数“ mask”，将默认字符“ *”用作掩码。
 

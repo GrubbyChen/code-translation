@@ -1,14 +1,6 @@
 # degreesToRads
 
-Converts an angle from degrees to radians.
-
-Use `Math.PI` and the degree to radian formula to convert the angle from degrees to radians.
-
-## 翻译
-
 将角度从度转换为弧度。
-
-使用Math.PI和度数到弧度公式将角度从度数转换为弧度。
 
 ## 代码
 

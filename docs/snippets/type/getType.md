@@ -1,14 +1,9 @@
 # getType
 
-Returns the native type of a value.
+返回参数的数据类型。
 
-Returns lowercased constructor name of value, `"undefined"` or `"null"` if value is `undefined` or `null`.
-
-## 翻译
-
-返回值的本机类型。
-
-返回值的小写构造函数名称，如果值是`undefined`或`null`，则返回“ undefined”或“ null”。
+- 如果参数是 `undefined` 或 `null`，则直接返回，
+- 否则返回参数的 `constructor.name` 属性。
 
 ## 代码
 

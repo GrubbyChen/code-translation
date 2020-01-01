@@ -1,14 +1,8 @@
-# currentURL
-
-Returns the current URL.
-
-Use `window.location.href` to get current URL.
-
-## 翻译
+# currentURL（-）
 
 返回当前URL。
 
-使用“ window.location.href”获取当前URL。
+- 使用 `window.location.href` 获取当前URL。
 
 ## 代码
 

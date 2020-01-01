@@ -1,16 +1,6 @@
 # colorize
 
-Add special characters to text to print in color in the console (combined with `console.log()`).
-
-Use template literals and special characters to add the appropriate color code to the string output.
-For background colors, add a special character that resets the background color at the end of the string.
-
-## 翻译
-
-在文本中添加特殊字符以在控制台中以彩色打印（与`console.log（）`组合）。
-
-使用模板文字和特殊字符将适当的颜色代码添加到字符串输出中。
-对于背景色，请在字符串的末尾添加一个特殊字符以重置背景色。
+在文本中添加特殊字符以在控制台中以彩色打印（使用 `console.log()`）。
 
 ## 代码
 

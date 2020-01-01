@@ -1,14 +1,6 @@
 # isFunction
 
-Checks if the given argument is a function.
-
-Use `typeof` to check if a value is classified as a function primitive.
-
-## 翻译
-
-检查给定参数是否为函数。
-
-使用`typeof`来检查一个值是否被归类为函数原语。
+检查传入的参数是否为函数。
 
 ## 代码
 

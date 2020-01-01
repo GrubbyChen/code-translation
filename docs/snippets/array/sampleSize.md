@@ -10,8 +10,8 @@ Omit the second argument, `n` to get only one element at random from the array.
 
 从“数组”获取唯一键处的“ n”个随机元素，直至“数组”的大小。
 
-使用[Fisher-Yates算法]（https://github.com/30-seconds/30-seconds-of-code#shuffle）对数组进行混洗。
-使用Array.prototype.slice（）获取第一个n元素。
+使用[Fisher-Yates算法](https://github.com/30-seconds/30-seconds-of-code#shuffle)对数组进行混洗。
+使用Array.prototype.slice()获取第一个n元素。
 省略第二个参数“ n”以从数组中随机获取一个元素。
 
 ## 代码

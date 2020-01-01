@@ -1,14 +1,9 @@
 # primes
 
-Generates primes up to a given number, using the Sieve of Eratosthenes.
+返回从 `2` 到指定数字之间所有的质数。
 
-Generate an array from `2` to the given number. Use `Array.prototype.filter()` to filter out the values divisible by any number from `2` to the square root of the provided number.
-
-## 翻译
-
-使用Eratosthenes筛子产生最多给定数的质数。
-
-从2到给定数字生成一个数组。使用Array.prototype.filter（）过滤掉从2到所提供数字的平方根的任何数字可整除的值。
+- 从 `2` 到给定数字生成一个数组。
+- 使用 `Array.prototype.filter()` 过滤掉从 `2` 到所提供数字的平方根的任何数字可整除的值。
 
 ## 代码
 

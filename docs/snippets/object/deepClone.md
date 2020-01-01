@@ -1,20 +1,11 @@
 # deepClone
 
-Creates a deep clone of an object.
+创建对象的深拷贝。
 
-Use recursion.
-Check if the passed object is `null` and, if so, return `null`.
-Use `Object.assign()` and an empty object (`{}`) to create a shallow clone of the original.
-Use `Object.keys()` and `Array.prototype.forEach()` to determine which key-value pairs need to be deep cloned.
-
-## 翻译
-
-创建对象的深层克隆。
-
-使用递归。
-检查传递的对象是否为null，如果是，则返回null。
-使用Object.assign（）和空对象（{}）创建原始对象的浅表副本。
-使用Object.keys（）和Array.prototype.forEach（）确定哪些键值对需要深度克隆。
+- 使用递归。
+- 检查传递的对象是否为 null，如果是则返回 null。
+- 使用 `Object.assign()` 和空对象创建原始对象的副本。
+- 使用 `Object.keys()` 和 `Array.prototype.forEach()` 确定哪些键值对需要深拷贝。
 
 ## 代码
 

@@ -9,7 +9,7 @@ The comparator function takes two arguments: the values of the two elements bein
 
 根据提供的比较器函数返回数组的所有唯一值。
 
-根据比较器函数fn，将“ Array.prototype.reduce（）”和“ Array.prototype.some（）”用于仅包含每个值的第一个唯一出现的数组。
+根据比较器函数fn，将“ Array.prototype.reduce()”和“ Array.prototype.some()”用于仅包含每个值的第一个唯一出现的数组。
 比较器函数有两个参数：比较的两个元素的值。
 
 ## 代码

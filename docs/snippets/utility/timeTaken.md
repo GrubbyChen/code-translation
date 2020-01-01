@@ -1,14 +1,8 @@
 # timeTaken
 
-Measures the time taken by a function to execute.
-
-Use `console.time()` and `console.timeEnd()` to measure the difference between the start and end times to determine how long the callback took to execute.
-
-## 翻译
-
 测量函数执行所需的时间。
 
-使用`console.time（）`和`console.timeEnd（）`来测量开始时间和结束时间之间的差，以确定回调执行的时间。
+- 使用 `console.time()` 和 `console.timeEnd()` 来测量开始时间和结束时间之间的差，以确定回调执行的时间。
 
 ## 代码
 

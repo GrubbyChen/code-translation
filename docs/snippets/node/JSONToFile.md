@@ -1,14 +1,6 @@
 # JSONToFile
 
-Writes a JSON object to a file.
-
-Use `fs.writeFile()`, template literals and `JSON.stringify()` to write a `json` object to a `.json` file.
-
-## 翻译
-
 将JSON对象写入文件。
-
-使用fs.writeFile（），模板文字和JSON.stringify（）将json对象写入.json文件。
 
 ## 代码
 

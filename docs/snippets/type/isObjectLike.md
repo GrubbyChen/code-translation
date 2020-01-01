@@ -1,4 +1,4 @@
-# isObjectLike
+# isObjectLike（-）
 
 Checks if a value is object-like.
 

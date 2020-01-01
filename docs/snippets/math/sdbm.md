@@ -1,14 +1,8 @@
 # sdbm
 
-Hashes the input string into a whole number.
-
-Use `String.prototype.split('')` and `Array.prototype.reduce()` to create a hash of the input string, utilizing bit shifting.
-
-## 翻译
-
 将输入字符串哈希为整数。
 
-使用String.prototype.split（''）和Array.prototype.reduce（）使用位移来创建输入字符串的哈希。
+- 使用 `String.prototype.split('')` 和 `Array.prototype.reduce()` 以及位移运算符 `<<` 来创建输入字符串的哈希值。
 
 ## 代码
 

@@ -6,9 +6,9 @@ Given an Iterable or Array-like structure, call `Array.prototype.reduce.call()` 
 
 ## 翻译
 
-将给定的类数组简化为值哈希（键控数据存储）。
+将给定的类数组简化为值哈希(键控数据存储)。
 
-给定一个Iterable或类似Array的结构，请在提供的对象上调用Array.prototype.reduce.call（）以遍历它，并返回一个由参考值作为键的对象。
+给定一个Iterable或类似Array的结构，请在提供的对象上调用Array.prototype.reduce.call()以遍历它，并返回一个由参考值作为键的对象。
 
 ## 代码
 

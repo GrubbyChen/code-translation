@@ -1,14 +1,6 @@
 # randomIntArrayInRange
 
-Returns an array of n random integers in the specified range.
-
-Use `Array.from()` to create an empty array of the specific length, `Math.random()` to generate a random number and map it to the desired range, using `Math.floor()` to make it an integer.
-
-## 翻译
-
-返回指定范围内n个随机整数的数组。
-
-使用Array.from（）创建一个特定长度的空数组，使用Math.random（）生成一个随机数并将其映射到所需的范围，使用Math.floor（）使其成为一个整数。
+返回指定范围内 `n` 个随机整数的数组。
 
 ## 代码
 

@@ -9,12 +9,11 @@ Omit the second argument, `wait`, to set the timeout at a default of 0 ms.
 
 ## 翻译
 
-创建一个受限制的函数，每“等待”毫秒最多只能调用一次提供的函数
+创建一个节流函数，一定时间内最多只能调用一次传入的函数。
 
-使用setTimeout（）和clearTimeout（）限制给定的方法fn。
-使用Function.prototype.apply（）将this上下文应用于函数并提供必要的参数。
-使用`Date.now（）`来跟踪上一次调用受限制的函数的时间。
-省略第二个参数“ wait”，将超时设置为默认值0 ms。
+- 第一次进入节流函数时立即调用传入的函数。
+- 使用 `Date.now()` 来记录上一次调用传入函数的时间。
+- 非第一次进入节流函数需要清除上一次的计时器，定义新的计时器，时间为剩余间隔时间。
 
 ## 代码
 

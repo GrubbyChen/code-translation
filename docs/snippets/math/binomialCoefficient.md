@@ -1,4 +1,4 @@
-# binomialCoefficient
+# binomialCoefficient（没理解）
 
 Evaluates the binomial coefficient of two integers `n` and `k`.
 
@@ -12,11 +12,11 @@ Use `Math.round()` to account for rounding errors in the calculation.
 
 计算两个整数“ n”和“ k”的二项式系数。
 
-使用Number.isNaN（）检查两个值是否为NaN。
+使用Number.isNaN()检查两个值是否为NaN。
 检查“ k”是否小于“ 0”，大于或等于“ n”，等于“ 1”或“ n-1”，并返回适当的结果。
 检查“ n-k”是否小于“ k”，并相应地切换其值。
 从2到k循环并计算二项式系数。
-使用`Math.round（）`来解决计算中的舍入误差。
+使用`Math.round()`来解决计算中的舍入误差。
 
 ## 代码
 

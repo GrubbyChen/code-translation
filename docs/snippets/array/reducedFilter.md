@@ -9,8 +9,8 @@ On the filtered array, use `Array.prototype.map()` to return the new object usin
 
 根据条件过滤对象数组，同时也过滤掉未指定的键。
 
-使用Array.prototype.filter（）基于谓词fn过滤数组，以便它返回条件返回真实值的对象。
-在过滤后的数组上，使用Array.prototype.map（）返回新对象，并使用Array.prototype.reduce（）过滤掉未作为keys参数提供的键。
+使用Array.prototype.filter()基于谓词fn过滤数组，以便它返回条件返回真实值的对象。
+在过滤后的数组上，使用Array.prototype.map()返回新对象，并使用Array.prototype.reduce()过滤掉未作为keys参数提供的键。
 
 ## 代码
 

@@ -1,18 +1,10 @@
 # onUserInputChange
 
-Run the callback whenever the user input type changes (`mouse` or `touch`). Useful for enabling/disabling code depending on the input device. This process is dynamic and works with hybrid devices (e.g. touchscreen laptops).
+每当用户输入类型更改（`mouse` 或 `touch`）时运行回调。根据输入设备来启用/禁用代码很有用。此过程是动态的，并且适用于混合设备（例如触摸屏笔记本电脑）。
 
-Use two event listeners. Assume `mouse` input initially and bind a `touchstart` event listener to the document. 
-On `touchstart`, add a `mousemove` event listener to listen for two consecutive `mousemove` events firing within 20ms, using `performance.now()`.
-Run the callback with the input type as an argument in either of these situations.
-
-## 翻译
-
-每当用户输入类型更改（“ mouse”或“ touch”）时，运行回调。根据输入设备来启用/禁用代码很有用。此过程是动态的，并且适用于混合设备（例如触摸屏笔记本电脑）。
-
-使用两个事件侦听器。首先假设“鼠标”输入，然后将“ touchstart”事件监听器绑定到文档。
-在“ touchstart”上，添加一个“ mousemove”事件监听器，以使用“ performance.now（）”监听在20ms内触发的两个连续的“ mousemove”事件。
-在这两种情况下，都将输入类型作为参数运行回调。
+- 首先假设输入输入为 `mouse`，先将 `touchstart` 事件绑定到 `document` 上。
+- 在 `touchstart` 上添加一个 `mousemove` 事件监听器，以使用 `performance.now()` 监听在 20ms 内触发的两个连续的 `mousemove` 事件。
+- 在这两种情况下，运行回调函数时，都将输入类型作为参数传入。
 
 ## 代码
 

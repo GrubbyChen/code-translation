@@ -1,14 +1,8 @@
 # minDate
 
-Returns the minimum of the given dates.
-
-Use the ES6 spread syntax to find the minimum date value, `new Date()` to convert it to a `Date` object.
-
-## 翻译
-
 返回给定日期的最小值。
 
-使用ES6扩展语法查找最小日期值，`new Date（）`将其转换为`Date`对象。
+将 ES6 语法与 `Math.max` 一起使用以查找最大日期值，`new Date()` 将其转换为`Date` 对象。
 
 ## 代码
 

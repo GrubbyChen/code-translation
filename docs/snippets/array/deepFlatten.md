@@ -11,7 +11,7 @@ Recursively flatten each element that is an array.
 Deep展平数组。
 
 使用递归。
-将`Array.prototype.concat（）`与一个空数组（`[]`）和散布运算符（`...`）一起使用，以使数组变平。
+将`Array.prototype.concat()`与一个空数组(`[]`)和散布运算符(`...`)一起使用，以使数组变平。
 以递归方式展平数组中的每个元素。
 
 ## 代码

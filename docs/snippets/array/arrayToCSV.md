@@ -8,10 +8,10 @@ Omit the second argument, `delimiter`, to use a default delimiter of `,`.
 
 ## 翻译
 
-将二维数组转换为逗号分隔值（CSV）字符串。
+将二维数组转换为逗号分隔值(CSV)字符串。
 
-使用Array.prototype.map（）和Array.prototype.join（delimiter）将单个一维数组（行）组合成字符串。
-使用Array.prototype.join（'\ n'）将所有行合并为CSV字符串，并用换行符分隔每一行。
+使用Array.prototype.map()和Array.prototype.join(delimiter)将单个一维数组(行)组合成字符串。
+使用Array.prototype.join('\ n')将所有行合并为CSV字符串，并用换行符分隔每一行。
 省略第二个参数`delimiter`，以使用默认定界符`，`。
 
 ## 代码

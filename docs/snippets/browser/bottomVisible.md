@@ -1,14 +1,8 @@
 # bottomVisible
 
-Returns `true` if the bottom of the page is visible, `false` otherwise.
+如果页面底部可见，则返回 `true`，否则返回 `false`。
 
-Use `scrollY`, `scrollHeight` and `clientHeight` to determine if the bottom of the page is visible.
-
-## 翻译
-
-如果页面底部可见，则返回“ true”，否则返回“ false”。
-
-使用`scrollY`，`scrollHeight`和`clientHeight`确定页面底部是否可见。
+- 使用 `scrollY`、`scrollHeight` 和 `clientHeight` 确定页面底部是否可见。
 
 ## 代码
 

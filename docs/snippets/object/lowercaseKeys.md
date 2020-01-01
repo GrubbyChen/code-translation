@@ -1,16 +1,9 @@
 # lowercaseKeys
 
-Creates a new object from the specified object, where all the keys are in lowercase.
+从指定的对象创建一个新的对象，其中所有键都转换成小写。
 
-Use `Object.keys()` and `Array.prototype.reduce()` to create a new object from the specified object.
-Convert each key in the original object to lowercase, using `String.toLowerCase()`.
-
-## 翻译
-
-从指定的对象创建一个新的对象，其中所有键都小写。
-
-使用Object.keys（）和Array.prototype.reduce（）从指定对象创建一个新对象。
-使用String.toLowerCase（）将原始对象中的每个键转换为小写。
+- 使用 `Object.keys()` 和 `Array.prototype.reduce()` 从指定对象创建一个新对象。
+- 使用 `String.toLowerCase()` 将原始对象中的每个键转换为小写。
 
 ## 代码
 

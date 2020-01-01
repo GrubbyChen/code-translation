@@ -8,7 +8,7 @@ Use `Array.prototype.reduce()`, `Array.prototype.map()` and `Array.prototype.con
 
 通过从阵列中创建每个可能的对，在提供的两个阵列中创建一个新阵列。
 
-使用Array.prototype.reduce（），Array.prototype.map（）和Array.prototype.concat（）从两个数组的元素中生成每个可能的对，并将它们保存在一个数组中。
+使用Array.prototype.reduce()，Array.prototype.map()和Array.prototype.concat()从两个数组的元素中生成每个可能的对，并将它们保存在一个数组中。
 
 ## 代码
 

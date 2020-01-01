@@ -1,20 +1,10 @@
 # functions
 
-Returns an array of function property names from own (and optionally inherited) enumerable properties of an object.
+从对象自己的可枚举属性中返回函数属性名称的数组。 
 
-Use `Object.keys(obj)` to iterate over the object's own properties.
-If `inherited` is `true`, use `Object.get.PrototypeOf(obj)` to also get the object's inherited properties.
-Use `Array.prototype.filter()` to keep only those properties that are functions.
-Omit the second argument, `inherited`, to not include inherited properties by default.
-
-## 翻译
-
-从对象自己的（并且可选地继承）可枚举属性中返回函数属性名称的数组。
-
-使用Object.keys（obj）迭代对象本身的属性。
-如果“继承”为“ true”，则使用“ Object.get.PrototypeOf（obj）”来获取对象的继承属性。
-使用Array.prototype.filter（）仅保留那些作为函数的属性。
-省略第二个参数“继承”，默认情况下不包括继承的属性。
+- 使用 `Object.keys(obj)` 迭代对象本身的属性。
+- 使用 `Array.prototype.filter()` 仅保留那些作为函数的属性。
+- 第二个参数 `inherited` 为 `true`，则使用 `Object.get.PrototypeOf(obj)` 来获取对象的继承属性，默认为 `false`。
 
 ## 代码
 

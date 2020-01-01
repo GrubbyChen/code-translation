@@ -1,14 +1,6 @@
 # hasClass
 
-Returns `true` if the element has the specified class, `false` otherwise.
-
-Use `element.classList.contains()` to check if the element has the specified class.
-
-## 翻译
-
-如果元素具有指定的类，则返回“ true”，否则返回“ false”。
-
-使用`element.classList.contains（）`检查元素是否具有指定的类。
+如果元素具有指定的类，则返回 `true`，否则返回 `false`。
 
 ## 代码
 

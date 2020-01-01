@@ -1,4 +1,4 @@
-# delay
+# delay（-）
 
 Invokes the provided function after `wait` milliseconds.
 
@@ -9,8 +9,8 @@ Use the spread (`...`) operator to supply the function with an arbitrary number 
 
 在“ wait”毫秒后调用提供的功能。
 
-使用setTimeout（）延迟执行fn。
-使用spread（`...`）运算符可以为函数提供任意数量的参数。
+使用setTimeout()延迟执行fn。
+使用spread(`...`)运算符可以为函数提供任意数量的参数。
 
 ## 代码
 

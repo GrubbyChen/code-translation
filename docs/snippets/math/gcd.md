@@ -1,18 +1,10 @@
 # gcd
 
-Calculates the greatest common divisor between two or more numbers/arrays.
+计算两个或多个数字之间的[最大公约数](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0/869308?fr=aladdin)。
 
-The inner `_gcd` function uses recursion.
-Base case is when `y` equals `0`. In this case, return `x`.
-Otherwise, return the GCD of `y` and the remainder of the division `x/y`.
-
-## 翻译
-
-计算两个或多个数字/数组之间的最大公约数。
-
-内部的_gcd函数使用递归。
-基本情况是“ y”等于“ 0”。在这种情况下，返回`x`。
-否则，返回GCD的y和除法x / y的余数。
+- 内部的 `_gcd` 函数使用递归。
+- 如果 `y` 等于 `0`，返回`x`。
+- 否则调用 `gcd` 函数，传入 `y` 和 `x/y` 的余数。
 
 ## 代码
 

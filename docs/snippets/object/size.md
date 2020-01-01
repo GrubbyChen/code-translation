@@ -1,22 +1,11 @@
 # size
 
-Get size of arrays, objects or strings.
+获取数组、对象或字符串的大小。
 
-Get type of `val` (`array`, `object` or `string`). 
-Use `length` property for arrays.
-Use `length` or `size` value if available or number of keys for objects.
-Use `size` of a [`Blob` object](https://developer.mozilla.org/en-US/docs/Web/API/Blob) created from `val` for strings.
-Split strings into array of characters with `split('')` and return its length.
-
-## 翻译
-
-获取数组，对象或字符串的大小。
-
-获取val类型（数组，对象或字符串）。
-对数组使用`length`属性。
-如果可用，则使用“长度”或“大小”值，或者使用对象的键数。
-使用从`val`创建的[`Blob`对象]（https://developer.mozilla.org/zh-CN/docs/Web/API/Blob）的`size`作为字符串。
-用`split（''）`将字符串分割成字符数组，并返回其长度。
+- 获取 val 类型（数组、对象或字符串）。
+- 数组：使用 `length` 属性。
+- 对象：使用 `length` 或 `size`，或者使用对象键的数量。
+- 字符串：使用通过 `val` 创建的[`Blob`对象](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob)的 `size` 作为字符串长度。
 
 ## 代码
 

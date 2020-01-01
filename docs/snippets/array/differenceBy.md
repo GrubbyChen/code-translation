@@ -8,7 +8,7 @@ Create a `Set` by applying `fn` to each element in `b`, then use `Array.prototyp
 
 将提供的函数应用于两个数组的每个数组元素后，返回两个数组之间的差。
 
-通过对b中的每个元素应用fn来创建Set，然后使用Array.prototype.map（）对a中的每个元素应用fn，然后对Array.prototype.filter（ ）`
+通过对b中的每个元素应用fn来创建Set，然后使用Array.prototype.map()对a中的每个元素应用fn，然后对Array.prototype.filter( )`
 
 ## 代码
 

@@ -1,14 +1,9 @@
 # averageBy
 
-Returns the average of an array, after mapping each element to a value using the provided function.
+使用提供的函数计算对象中指定元素的平均值。
 
-Use `Array.prototype.map()` to map each element to the value returned by `fn`, `Array.prototype.reduce()` to add each value to an accumulator, initialized with a value of `0`, divide by the `length` of the array.
-
-## 翻译
-
-使用提供的函数将每个元素映射到一个值后，返回数组的平均值。
-
-使用Array.prototype.map（）将每个元素映射到fn返回的值，Array.prototype.reduce（）将每个值添加到累加器中，并以值0初始化，除法通过数组的“长度”。
+- 使用 `Array.prototype.map()` 将每个元素映射到 `fn` 返回的值
+- 使用 `Array.prototype.reduce()` 将每个值添加到累加器中（累加器初始值为 `0`），再除以数组的长度。
 
 ## 代码
 

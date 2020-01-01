@@ -1,14 +1,6 @@
 # minBy
 
-Returns the minimum value of an array, after mapping each element to a value using the provided function.
-
-Use `Array.prototype.map()` to map each element to the value returned by `fn`, `Math.min()` to get the minimum value.
-
-## 翻译
-
-使用提供的函数将每个元素映射到一个值后，返回数组的最小值。
-
-使用Array.prototype.map（）将每个元素映射到fn返回的值，Math.min（）返回最小值。
+使用提供的函数获取指定元素，返回数组中指定元素值最小的对象。
 
 ## 代码
 

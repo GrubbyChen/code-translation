@@ -9,11 +9,11 @@ Omit the third argument, `delimiter`, to use a default delimiter of `,`.
 
 ## 翻译
 
-将对象数组转换为仅包含指定“ columns”的逗号分隔值（CSV）字符串。
+将对象数组转换为仅包含指定“ columns”的逗号分隔值(CSV)字符串。
 
-使用Array.prototype.join（delimiter）组合列中的所有名称以创建第一行。
-使用Array.prototype.map（）和Array.prototype.reduce（）为每个对象创建一行，用空字符串替换不存在的值，仅映射“列”中的值。
-使用Array.prototype.join（'\ n'）将所有行合并为一个字符串。
+使用Array.prototype.join(delimiter)组合列中的所有名称以创建第一行。
+使用Array.prototype.map()和Array.prototype.reduce()为每个对象创建一行，用空字符串替换不存在的值，仅映射“列”中的值。
+使用Array.prototype.join('\ n')将所有行合并为一个字符串。
 省略第三个参数“定界符”，以使用默认定界符“，”。
 
 ## 代码

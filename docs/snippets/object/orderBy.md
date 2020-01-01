@@ -1,16 +1,9 @@
 # orderBy
 
-Returns a sorted array of objects ordered by properties and orders.
+返回按特定属性顺序排序的对象的排序数组。
 
-Uses `Array.prototype.sort()`, `Array.prototype.reduce()` on the `props` array with a default value of `0`, use array destructuring to swap the properties position depending on the order passed.
-If no `orders` array is passed it sort by `'asc'` by default.
-
-## 翻译
-
-返回按属性和顺序排序的对象的排序数组。
-
-在props数组上使用默认值为0的Array.prototype.sort（），Array.prototype.reduce（），并根据传递的顺序使用数组解构来交换属性位置。
-如果没有传递“ orders”数组，则默认情况下按“ asc”排序。
+- 在 props 数组上使用默认值为 0 的 Array.prototype.sort()、Array.prototype.reduce()，并根据传递的顺序使用数组解构来交换属性位置。
+- 如果没有传递 `orders` 数组，则默认情况下按 `asc` 排序。
 
 ## 代码
 

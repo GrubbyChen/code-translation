@@ -1,14 +1,6 @@
 # overArgs
 
-Creates a function that invokes the provided function with its arguments transformed.
-
-Use `Array.prototype.map()` to apply `transforms` to `args` in combination with the spread operator (`...`) to pass the transformed arguments to `fn`.
-
-## 翻译
-
 创建一个函数，该函数调用提供的函数并转换其参数。
-
-使用Array.prototype.map（）来将`transforms`应用于`args`并与散布运算符（`...`）一起将转换后的参数传递给`fn`。
 
 ## 代码
 

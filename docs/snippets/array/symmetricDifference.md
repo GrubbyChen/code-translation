@@ -8,7 +8,7 @@ Create a `Set` from each array, then use `Array.prototype.filter()` on each of t
 
 返回两个数组之间的对称差，而不过滤掉重复的值。
 
-从每个数组创建一个Set，然后在每个数组上使用Array.prototype.filter（）以仅保留彼此不包含的值。
+从每个数组创建一个Set，然后在每个数组上使用Array.prototype.filter()以仅保留彼此不包含的值。
 
 ## 代码
 

@@ -9,8 +9,8 @@ Use `Array.prototype.reverse()` and `Array.prototype.findIndex()` to find the ap
 
 返回将值插入数组以保持其排序顺序的最高索引。
 
-检查数组是否以降序排序（松散）。
-使用Array.prototype.reverse（）和Array.prototype.findIndex（）查找适当的最后一个索引，将元素插入该位置。
+检查数组是否以降序排序(松散)。
+使用Array.prototype.reverse()和Array.prototype.findIndex()查找适当的最后一个索引，将元素插入该位置。
 
 ## 代码
 

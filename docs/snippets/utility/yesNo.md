@@ -1,4 +1,4 @@
-# yesNo
+# yesNo（-）
 
 Returns `true` if the string is `y`/`yes` or `false` if the string is `n`/`no`.
 
@@ -7,9 +7,9 @@ Omit the second argument, `def` to set the default answer as `no`.
 
 ## 翻译
 
-如果字符串是`y` /`yes`，则返回`true`；如果字符串是`n` /`no`，则返回false。
+如果字符串是 `y` 或者 `yes`，则返回 `true`；如果字符串是 `n` 或者`no`，则返回 `false`。
 
-使用RegExp.test（）检查字符串是否为y / yes或n / no。
+使用RegExp.test()检查字符串是否为y / yes或n / no。
 省略第二个参数“ def”，将默认答案设置为“ no”。
 
 ## 代码

@@ -6,9 +6,7 @@ Use `Array.prototype.isArray()` to determine if `val` is an array and return it 
 
 ## 翻译
 
-如果提供的值不是一个，则将其强制转换为数组。
-
-使用Array.prototype.isArray（）确定val是一个数组，然后将其原样返回或封装在数组中。
+将给定参数强制转换为数组。
 
 ## 代码
 

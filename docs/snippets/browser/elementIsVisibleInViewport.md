@@ -1,20 +1,9 @@
 # elementIsVisibleInViewport
 
-Returns `true` if the element specified is visible in the viewport, `false` otherwise.
+如果指定的元素在视口中可见，则返回 `true`，否则返回 `false`。
 
-Use `Element.getBoundingClientRect()` and the `window.inner(Width|Height)` values
-to determine if a given element is visible in the viewport.
-Omit the second argument to determine if the element is entirely visible, or specify `true` to determine if
-it is partially visible.
-
-## 翻译
-
-如果指定的元素在视口中可见，则返回“ true”，否则返回“ false”。
-
-使用`Element.getBoundingClientRect（）`和`window.inner（Width | Height）`值
-确定给定元素在视口中是否可见。
-省略第二个参数以确定元素是否完全可见，或指定“ true”确定是否
-它是部分可见的。
+- 使用 `Element.getBoundingClientRect()` 和 `window.inner(Width | Height)` 值，确定给定元素在视口中是否可见。
+- 第二个参数确定元素是否完全可见，默认值为 `false`。
 
 ## 代码
 

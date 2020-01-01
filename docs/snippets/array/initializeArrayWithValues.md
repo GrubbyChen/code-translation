@@ -9,7 +9,7 @@ You can omit `val` to use a default value of `0`.
 
 使用指定的值初始化并填充数组。
 
-使用“ Array（n）”创建所需长度的数组，使用“ fill（v）”填充所需值。
+使用“ Array(n)”创建所需长度的数组，使用“ fill(v)”填充所需值。
 您可以省略“ val”以使用默认值“ 0”。
 
 ## 代码

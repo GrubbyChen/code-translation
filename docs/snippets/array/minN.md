@@ -10,10 +10,10 @@ Omit the second argument, `n`, to get a one-element array.
 ## 翻译
 
 从提供的数组中返回n个最小元素。
-如果`n`大于或等于提供的数组的长度，则返回原始数组（以升序排列）。
+如果`n`大于或等于提供的数组的长度，则返回原始数组(以升序排列)。
 
-使用`Array.prototype.sort（）`结合传播运算符（`...`）来创建数组的浅表克隆，并按升序对其进行排序。
-使用Array.prototype.slice（）获取指定数量的元素。
+使用`Array.prototype.sort()`结合传播运算符(`...`)来创建数组的浅表克隆，并按升序对其进行排序。
+使用Array.prototype.slice()获取指定数量的元素。
 省略第二个参数n，以获取一个单元素数组。
 
 ## 代码

@@ -10,7 +10,7 @@ Return the `queryString` or an empty string when the `queryParameters` are falsy
 
 返回从给定对象的键值对生成的查询字符串。
 
-在Object.entries（queryParameters）上使用Array.prototype.reduce（）创建查询字符串。
+在Object.entries(queryParameters)上使用Array.prototype.reduce()创建查询字符串。
 根据“ queryString”的“ length”确定“ symbol”为“？”还是“＆”，并且仅在字符串形式的情况下将“ val”连接到“ queryString”。
 当queryParameters为假时，返回queryString或一个空字符串。
 

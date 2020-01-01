@@ -9,7 +9,7 @@ Omit the second argument to use a default `separator` of `_`.
 
 从驼峰式转换字符串。
 
-使用String.prototype.replace（）删除下划线，连字符和空格，并将单词转换为驼峰式。
+使用String.prototype.replace()删除下划线，连字符和空格，并将单词转换为驼峰式。
 省略第二个参数以使用默认的_分隔符。
 
 ## 代码

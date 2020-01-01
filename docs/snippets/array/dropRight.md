@@ -8,7 +8,7 @@ Use `Array.prototype.slice()` to remove the specified number of elements from th
 
 返回一个新数组，其中右侧删除了“ n”个元素。
 
-使用Array.prototype.slice（）从右侧删除指定数量的元素。
+使用Array.prototype.slice()从右侧删除指定数量的元素。
 
 ## 代码
 

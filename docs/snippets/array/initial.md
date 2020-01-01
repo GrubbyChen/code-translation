@@ -8,7 +8,7 @@ Use `arr.slice(0,-1)` to return all but the last element of the array.
 
 返回数组中除最后一个元素之外的所有元素。
 
-使用`arr.slice（0，-1）`返回除数组的最后一个元素以外的所有元素。
+使用`arr.slice(0，-1)`返回除数组的最后一个元素以外的所有元素。
 
 ## 代码
 

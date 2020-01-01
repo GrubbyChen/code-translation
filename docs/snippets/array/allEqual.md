@@ -9,7 +9,7 @@ Elements in the array are compared using the strict comparison operator, which d
 
 检查数组中的所有元素是否相等。
 
-使用Array.prototype.every（）检查数组的所有元素是否与第一个元素相同。
+使用Array.prototype.every()检查数组的所有元素是否与第一个元素相同。
 使用严格的比较运算符比较数组中的元素，该运算符不考虑NaN自不等式。
 
 ## 代码

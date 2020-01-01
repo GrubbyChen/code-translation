@@ -1,14 +1,8 @@
 # toCurrency
 
-Take a number and return specified currency formatting.
-
-Use `Intl.NumberFormat` to enable country / currency sensitive formatting.
-
-## 翻译
-
 取一个数字并返回指定的货币格式。
 
-使用`Intl.NumberFormat`启用对国家/货币敏感的格式。
+- 使用 `Intl.NumberFormat` 启用对国家/货币敏感的格式。
 
 ## 代码
 

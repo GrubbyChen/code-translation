@@ -8,7 +8,7 @@ Use `Array.prototype.filter()` to filter out falsy values (`false`, `null`, `0`,
 
 从数组中删除伪造的值。
 
-使用Array.prototype.filter（）过滤掉虚假的值（假，空，0，“”，“ undefined”和“ NaN”）。
+使用Array.prototype.filter()过滤掉虚假的值(假，空，0，“”，“ undefined”和“ NaN”)。
 
 ## 代码
 

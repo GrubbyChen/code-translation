@@ -1,14 +1,9 @@
 # is
 
-Checks if the provided value is of the specified type.
+检查提供的参数是否为指定的数据类型。
 
-Ensure the value is not `undefined` or `null` using `Array.prototype.includes()`, and compare the `constructor` property on the value with `type` to check if the provided value is of the specified `type`.
-
-## 翻译
-
-检查提供的值是否为指定的类型。
-
-使用Array.prototype.includes（）确保该值不是undefined或null，然后将该值的constructor属性与type进行比较，以检查提供的值是否为指定的type类型。 。
+- 使用 `Array.prototype.includes()` 确保该参数不是 `undefined` 或 `null`
+- 然后将该参数的 `constructor` 属性与 `type` 进行比较。
 
 ## 代码
 

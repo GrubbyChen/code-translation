@@ -1,4 +1,4 @@
-# show
+# show（-）
 
 Shows all the elements specified.
 
@@ -8,7 +8,7 @@ Use the spread operator (`...`) and `Array.prototype.forEach()` to clear the `di
 
 显示所有指定的元素。
 
-使用传播运算符（...）和Array.prototype.forEach（）清除指定的每个元素的display属性。
+使用传播运算符(...)和Array.prototype.forEach()清除指定的每个元素的display属性。
 
 ## 代码
 

@@ -1,14 +1,8 @@
 # objectFromPairs
 
-Creates an object from the given key-value pairs.
-
-Use `Array.prototype.reduce()` to create and combine key-value pairs.
-
-## 翻译
-
 根据给定的键值对创建一个对象。
 
-使用Array.prototype.reduce（）创建和组合键值对。
+- 使用 Array.prototype.reduce() 创建和组合键值对。
 
 ## 代码
 

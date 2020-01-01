@@ -9,8 +9,8 @@ Use `Array.prototype.findIndex()` to find the appropriate index where the elemen
 
 返回应将值插入数组以保持其排序顺序的最低索引。
 
-检查数组是否以降序排序（松散）。
-使用Array.prototype.findIndex（）查找适当的索引，元素应插入该位置。
+检查数组是否以降序排序(松散)。
+使用Array.prototype.findIndex()查找适当的索引，元素应插入该位置。
 
 ## 代码
 

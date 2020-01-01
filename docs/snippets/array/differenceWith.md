@@ -8,7 +8,7 @@ Use `Array.prototype.filter()` and `Array.prototype.findIndex()` to find the app
 
 从比较器函数未返回“ true”的数组中过滤掉所有值。
 
-使用`Array.prototype.filter（）`和`Array.prototype.findIndex（）`查找合适的值。
+使用`Array.prototype.filter()`和`Array.prototype.findIndex()`查找合适的值。
 
 ## 代码
 

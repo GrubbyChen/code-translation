@@ -8,7 +8,7 @@ Use `Array.prototype.filter()` and `Array.prototype.findIndex()` to find the app
 
 使用提供的函数作为比较器，返回两个数组之间的对称差。
 
-使用`Array.prototype.filter（）`和`Array.prototype.findIndex（）`查找合适的值。
+使用`Array.prototype.filter()`和`Array.prototype.findIndex()`查找合适的值。
 
 ## 代码
 

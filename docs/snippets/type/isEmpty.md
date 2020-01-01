@@ -1,4 +1,4 @@
-# isEmpty
+# isEmpty（*）
 
 Returns true if the a value is an empty object, collection, has no enumerable properties or is any type that is not considered a collection.
 

@@ -8,11 +8,11 @@ If the key exists in object, return target value, otherwise, return `null`.
 
 ## 翻译
 
-根据`keys`数组返回嵌套JSON对象中的目标值。
+根据 `keys` 数组返回对象中的目标值。
 
-将您想要的嵌套JSON对象中的键作为“数组”进行比较。
-使用Array.prototype.reduce（）来从嵌套的JSON对象中一对一地获取值。
-如果键存在于对象中，则返回目标值，否则返回“ null”。
+- 将您想要的对象中的键作为数组传入。
+- 使用 `Array.prototype.reduce()` 从对象中一一地获取值。
+- 如果键存在于对象中，则返回目标值，否则返回 `null`。
 
 ## 代码
 

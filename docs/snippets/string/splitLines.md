@@ -8,7 +8,7 @@ Use `String.prototype.split()` and a regular expression to match line breaks and
 
 将多行字符串拆分为行数组。
 
-使用String.prototype.split（）和一个正则表达式来匹配换行符并创建一个数组。
+使用String.prototype.split()和一个正则表达式来匹配换行符并创建一个数组。
 
 ## 代码
 

@@ -1,14 +1,6 @@
 # sleep
 
-Delays the execution of an asynchronous function.
-
-Delay executing part of an `async` function, by putting it to sleep, returning a `Promise`.
-
-## 翻译
-
-延迟异步功能的执行。
-
-通过使其进入睡眠状态并返回一个Promise来延迟执行async函数的一部分。
+休眠一段时间。
 
 ## 代码
 

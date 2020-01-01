@@ -1,16 +1,9 @@
 # clampNumber
 
-Clamps `num` within the inclusive range specified by the boundary values `a` and `b`.
+将 `num` 限制在边界值 `a` 和 `b` 指定的范围内。
 
-If `num` falls within the range, return `num`.
-Otherwise, return the nearest number in the range.
-
-## 翻译
-
-将num限制在边界值a和b指定的范围内。
-
-如果num在此范围内，则返回num。
-否则，返回范围内最接近的数字。
+- 如果 `num` 在此范围内，则返回 `num`。
+- 否则，返回范围内最接近的边界值。
 
 ## 代码
 

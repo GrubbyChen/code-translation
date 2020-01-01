@@ -8,7 +8,7 @@ Create a `Set` with all values of `a` and values in `b` for which the comparator
 
 使用提供的比较器函数一次返回两个数组中任何一个存在的每个元素。
 
-使用Array.prototype.findIndex（）创建一个具有所有a值和所有b值的Set，比较器在a中找不到匹配项。
+使用Array.prototype.findIndex()创建一个具有所有a值和所有b值的Set，比较器在a中找不到匹配项。
 
 ## 代码
 

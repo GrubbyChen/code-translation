@@ -8,7 +8,7 @@ Use `Array.prototype.some()` and `Array.prototype.includes()` to check if at lea
 
 如果arr中至少包含一个值元素，则返回`true`，否则返回'false'。
 
-使用“ Array.prototype.some（）”和“ Array.prototype.includes（）”来检查“ arr”中是否包含“ values”的至少一个元素。
+使用“ Array.prototype.some()”和“ Array.prototype.includes()”来检查“ arr”中是否包含“ values”的至少一个元素。
 
 ## 代码
 

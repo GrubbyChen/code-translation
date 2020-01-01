@@ -10,8 +10,8 @@ If `offset` is negative, the elements will be moved from end to start.
 
 将指定数量的元素移动到数组的末尾。
 
-两次使用Array.prototype.slice（）获取指定索引之后的元素和该索引之前的元素。
-使用散布运算符（`...`）将两者合并为一个数组。
+两次使用Array.prototype.slice()获取指定索引之后的元素和该索引之前的元素。
+使用散布运算符(`...`)将两者合并为一个数组。
 如果`offset`为负，则元素将从头到尾移动。
 
 ## 代码

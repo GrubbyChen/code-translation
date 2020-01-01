@@ -1,18 +1,10 @@
 # readFileLines
 
-Returns an array of lines from the specified file.
-
-Use `readFileSync` function in `fs` node package to create a `Buffer` from a file.
-convert buffer to string using `toString(encoding)` function.
-creating an array from contents of file by `split`ing file content line by line (each `\n`).
-
-## 翻译
-
 返回指定文件中的行数组。
 
-在`fs`节点包中使用`readFileSync`函数从文件创建`Buffer'。
-使用toString（encoding）函数将缓冲区转换为字符串。
-通过逐行拆分文件内容（每个\ n）从文件内容创建数组。
+- 使用 `readFileSync` 函数读取文件流。
+- 使用 `toString(encoding)` 函数将文件流转换为字符串。
+- 通过逐行拆分文件内容（每个 `\n`），创建文件内容行数组。
 
 ## 代码
 

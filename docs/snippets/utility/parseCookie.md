@@ -10,9 +10,9 @@ Use `Array.prototype.reduce()` and `decodeURIComponent()` to create an object wi
 
 解析HTTP Cookie标头字符串，并返回所有cookie名称-值对的对象。
 
-使用`String.prototype.split（';'）`来分隔键值对。
-使用“ Array.prototype.map（）”和“ String.prototype.split（'='）`将键与每对值分开。
-使用Array.prototype.reduce（）和decodeURIComponent（）创建具有所有键值对的对象。
+使用`String.prototype.split(';')`来分隔键值对。
+使用“ Array.prototype.map()”和“ String.prototype.split('=')`将键与每对值分开。
+使用Array.prototype.reduce()和decodeURIComponent()创建具有所有键值对的对象。
 
 ## 代码
 

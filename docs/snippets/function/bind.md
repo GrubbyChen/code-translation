@@ -1,16 +1,9 @@
 # bind
 
-Creates a function that invokes `fn` with a given context, optionally adding any additional supplied parameters to the beginning of the arguments.
+创建一个在给定上下文中调用 `fn` 的函数，可以选择传入更多的参数进行合并。
 
-Return a `function` that uses `Function.prototype.apply()` to apply the given `context` to `fn`.
-Use `Array.prototype.concat()` to prepend any additional supplied parameters to the arguments.
-
-## 翻译
-
-创建一个在给定上下文中调用“ fn”的函数，可以选择将任何其他提供的参数添加到参数的开头。
-
-返回一个使用Function.prototype.apply（）的function将给定的context应用于fn。
-使用Array.prototype.concat（）将任何其他提供的参数放在参数之前。
+- 返回一个使用 `Function.prototype.apply()` 的函数，将给定的上下文应用于 `fn`。
+- 使用扩展运算符（`...`）在参数中将传入的其他参数进行合并。
 
 ## 代码
 

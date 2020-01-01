@@ -1,20 +1,11 @@
 # luhnCheck
 
-Implementation of the [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) used to validate a variety of identification numbers, such as credit card numbers, IMEI numbers, National Provider Identifier numbers etc.
+[Luhn 算法](https://baike.baidu.com/item/Luhn%E7%AE%97%E6%B3%95/22799984?fr=aladdin)的实现，用于验证各种标识号，例如信用卡号，IMEI号，国家提供商标识号等。
 
-Use `String.prototype.split('')`, `Array.prototype.reverse()` and `Array.prototype.map()` in combination with `parseInt()` to obtain an array of digits.
-Use `Array.prototype.splice(0,1)` to obtain the last digit.
-Use `Array.prototype.reduce()` to implement the Luhn Algorithm.
-Return `true` if `sum` is divisible by `10`, `false` otherwise.
-
-## 翻译
-
-[Luhn算法]（https://en.wikipedia.org/wiki/Luhn_algorithm）的实现，用于验证各种标识号，例如信用卡号，IMEI号，国家提供商标识号等。
-
-结合使用String.prototype.split（''），Array.prototype.reverse（）和Array.prototype.map（）和parseInt（）来获得数字数组。
-使用Array.prototype.splice（0,1）获得最后一位。
-使用Array.prototype.reduce（）实现Luhn算法。
-如果sum被10整除，则返回true，否则返回false。
+- 结合使用 `String.prototype.split('')`、`Array.prototype.reverse()`、`Array.prototype.map()` 和 `parseInt()` 来获得数字数组。
+- 使用 `Array.prototype.splice(0,1)` 获得最后一位字符。
+- 使用 `Array.prototype.reduce()` 实现 `Luhn 算法`。
+- 如果 `sum` 被 `10` 整除，则返回 `true`，否则返回 `false`。
 
 ## 代码
 

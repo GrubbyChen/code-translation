@@ -11,7 +11,7 @@ Return the array of indices.
 返回数组中所有“ val”的索引。
 如果`val`从未发生，则返回`[]`。
 
-使用Array.prototype.reduce（）遍历元素并存储索引以匹配元素。
+使用Array.prototype.reduce()遍历元素并存储索引以匹配元素。
 返回索引数组。
 
 ## 代码

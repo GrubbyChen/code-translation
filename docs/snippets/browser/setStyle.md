@@ -1,14 +1,6 @@
 # setStyle
 
-Sets the value of a CSS rule for the specified element.
-
-Use `element.style` to set the value of the CSS rule for the specified element to `val`.
-
-## 翻译
-
-设置指定元素的CSS规则的值。
-
-使用`element.style`将指定元素的CSS规则的值设置为`val`。
+设置指定元素的 CSS 规则的值。
 
 ## 代码
 

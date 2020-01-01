@@ -8,7 +8,7 @@ Use `String.prototype.replace()` to escape special characters.
 
 转义要在正则表达式中使用的字符串。
 
-使用String.prototype.replace（）转义特殊字符。
+使用String.prototype.replace()转义特殊字符。
 
 ## 代码
 

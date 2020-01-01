@@ -1,16 +1,9 @@
 # hammingDistance
 
-Calculates the Hamming distance between two values.
+计算两个值之间的[汉明距离](https://baike.baidu.com/item/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB/475174?fr=aladdin)。
 
-Use XOR operator (`^`) to find the bit difference between the two numbers, convert to a binary string using `toString(2)`.
-Count and return the number of `1`s in the string, using `match(/1/g)`.
-
-## 翻译
-
-计算两个值之间的汉明距离。
-
-使用XOR运算符（`^`）查找两个数字之间的位差，然后使用`toString（2）`转换为二进制字符串。
-使用match（/ 1 / g）计算并返回字符串中1的数目。
+- 使用 XOR 运算符（`^`）查找两个数字之间的位差，然后使用 `toString(2)` 转换为二进制字符串。
+- 使用 `match(/1/g)` 计算并返回字符串中 `1` 的数目。
 
 ## 代码
 

@@ -13,7 +13,7 @@ Omit the fourth argument, `err`, to log errors to the console's `error` stream b
 
 向传递的URL发出POST请求。
 
-使用[`XMLHttpRequest`]（https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest）网络api向给定的“ url”发出“ post”请求。
+使用[`XMLHttpRequest`](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)网络api向给定的“ url”发出“ post”请求。
 使用setRequestHeader方法设置HTTP请求标头的值。
 通过将给定的“回调”称为“ responseText”来处理“ onload”事件。
 通过运行提供的`err`函数来处理'onerror'事件。

@@ -1,4 +1,4 @@
-# observeMutations
+# observeMutations（可以深入研究）
 
 Returns a new MutationObserver and runs the provided callback for each mutation on the specified element.
 
@@ -10,9 +10,9 @@ Omit the third argument, `options`, to use the default [options](https://develop
 
 返回一个新的MutationObserver，并为指定元素上的每个突变运行提供的回调。
 
-使用[`MutationObserver`]（https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver）观察给定元素的突变。
-使用Array.prototype.forEach（）运行每个观察到的突变的回调。
-省略第三个参数“ options”以使用默认的[options]（https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver#MutationObserverInit）（全部为true）。
+使用[`MutationObserver`](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)观察给定元素的突变。
+使用Array.prototype.forEach()运行每个观察到的突变的回调。
+省略第三个参数“ options”以使用默认的[options](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver#MutationObserverInit)(全部为true)。
 
 ## 代码
 

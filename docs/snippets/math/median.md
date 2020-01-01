@@ -1,16 +1,6 @@
 # median
 
-Returns the median of an array of numbers.
-
-Find the middle of the array, use `Array.prototype.sort()` to sort the values.
-Return the number at the midpoint if `length` is odd, otherwise the average of the two middle numbers.
-
-## 翻译
-
-返回数字数组的中位数。
-
-找到数组的中间，使用Array.prototype.sort（）对值进行排序。
-如果`length`为奇数，则返回中点的数字，否则返回两个中间数字的平均值。
+返回数字数组的中位数，如果数组长度为奇数，则返回中间数字，否则返回两个中间数字的平均值。
 
 ## 代码
 

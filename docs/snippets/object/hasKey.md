@@ -1,20 +1,11 @@
 # hasKey
 
-Returns `true` if the target value exists in a JSON object, `false` otherwise.
+如果目标值存在于对象中，则返回 `true`，否则返回 `false`。
 
-Check if `keys` is non-empty and use `Array.prototype.every()` to sequentially check its keys to internal depth of the object, `obj`. 
-Use `Object.prototype.hasOwnProperty()` to check if `obj` does not have the current key or is not an object, stop propagation and return `false`.
-Otherwise assign the key's value to `obj` to use on the next iteration.
-Return `false` beforehand if given key list is empty.
-
-## 翻译
-
-如果目标值存在于JSON对象中，则返回“ true”，否则返回“ false”。
-
-检查keys是否为非空，并使用Array.prototype.every（）顺序检查其key以达到对象obj的内部深度。
-使用Object.prototype.hasOwnProperty（）检查obj是否没有当前键或不是对象，停止传播并返回false。
-否则，将键的值分配给obj以在下一次迭代中使用。
-如果给定的密钥列表为空，则事先返回“ false”。
+- 若 `keys` 为空则直接返回 `false`
+- 使用 `Array.prototype.every()` 遍历 `keys`。
+- 若 `obj` 不是对象，或者 `Object.prototype.hasOwnProperty()` 检查 `obj` 没有对应的键值，终止循环并返回 `false`
+- 否则，将键对应的值分配给 `obj` 以在下一次迭循环中使用。
 
 ## 代码
 

@@ -8,7 +8,7 @@ Use `Array.prototype.slice()` to get the desired argument at index `n`.
 
 创建一个将参数从索引n处获取的函数。如果n为负，则返回末尾的第n个参数。
 
-使用Array.prototype.slice（）在索引n处获取所需的参数。
+使用Array.prototype.slice()在索引n处获取所需的参数。
 
 ## 代码
 

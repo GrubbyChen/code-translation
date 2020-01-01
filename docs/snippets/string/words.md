@@ -9,7 +9,7 @@ Omit the second argument to use the default regexp.
 
 将给定的字符串转换为单词数组。
 
-使用带有提供的模式的String.prototype.split（）（默认为非alpha的正则表达式）来转换为字符串数组。使用Array.prototype.filter（）删除所有空字符串。
+使用带有提供的模式的String.prototype.split()(默认为非alpha的正则表达式)来转换为字符串数组。使用Array.prototype.filter()删除所有空字符串。
 省略第二个参数以使用默认的regexp。
 
 ## 代码

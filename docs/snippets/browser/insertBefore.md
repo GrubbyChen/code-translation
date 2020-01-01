@@ -1,14 +1,12 @@
 # insertBefore
 
-Inserts an HTML string before the start of the specified element.
+在指定元素的开头之前插入 HTML 字符串。
 
-Use `el.insertAdjacentHTML()` with a position of `'beforebegin'` to parse `htmlString` and insert it before the start of `el`.
-
-## 翻译
-
-在指定元素的开头之前插入HTML字符串。
-
-使用位置为“ beforebegin”的“ el.insertAdjacentHTML（）”来解析“ htmlString”并将其插入到“ el”开始之前。
+- `insertAdjacentHTML()` 将指定的文本解析为 HTML 或 XML，并将结果节点插入到 DOM 树中的指定位置。
+- `beforebegin`: 元素自身的前面。
+- `afterbegin`: 插入元素内部的第一个子节点之前。
+- `beforeend`: 插入元素内部的最后一个子节点之后。
+- `afterend`: 元素自身的后面。
 
 ## 代码
 

@@ -1,14 +1,6 @@
 # getDaysDiffBetweenDates
 
-Returns the difference (in days) between two dates.
-
-Calculate the difference (in days) between two `Date` objects.
-
-## 翻译
-
-返回两个日期之间的差（以天为单位）。
-
-计算两个“日期”对象之间的差异（以天为单位）。
+返回两个日期间隔的天数。
 
 ## 代码
 

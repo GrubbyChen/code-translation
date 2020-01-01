@@ -1,20 +1,11 @@
 # formatDuration
 
-Returns the human readable format of the given number of milliseconds.
+将时间戳转化成可读性更强的字符串。
 
-Divide `ms` with the appropriate values to obtain the appropriate values for `day`, `hour`, `minute`, `second` and `millisecond`.
-Use `Object.entries()` with `Array.prototype.filter()` to keep only non-zero values.
-Use `Array.prototype.map()` to create the string for each value, pluralizing appropriately.
-Use `String.prototype.join(', ')` to combine the values into a string.
-
-## 翻译
-
-返回给定毫秒数的人类可读格式。
-
-将“ ms”除以适当的值以获得“天”，“小时”，“分钟”，“秒”和“毫秒”的适当值。
-将Object.entries（）与Array.prototype.filter（）结合使用，仅保留非零值。
-使用Array.prototype.map（）为每个值创建字符串，并将其适当地复数。
-使用`String.prototype.join（'，'）`将值组合成一个字符串。
+- 将时间戳除以适当的值以获得 `天`，`小时`，`分钟`，`秒` 和 `毫秒` 的值。
+- 将 `Object.entries()` 与 `Array.prototype.filter()` 结合使用，仅保留非零值。
+- 使用 `Array.prototype.map()` 为每个值创建字符串。
+- 使用 `String.prototype.join('，')` 将值组合成一个字符串。
 
 ## 代码
 

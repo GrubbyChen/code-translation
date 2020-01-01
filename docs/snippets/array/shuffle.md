@@ -8,7 +8,7 @@ Uses the [Fisher-Yates algorithm](https://github.com/30-seconds/30-seconds-of-co
 
 随机化数组值的顺序，返回一个新数组。
 
-使用[Fisher-Yates算法]（https://github.com/30-seconds/30-seconds-of-code#shuffle）重新排列数组的元素。
+使用[Fisher-Yates算法](https://github.com/30-seconds/30-seconds-of-code#shuffle)重新排列数组的元素。
 
 ## 代码
 

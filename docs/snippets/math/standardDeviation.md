@@ -1,18 +1,9 @@
 # standardDeviation
 
-Returns the standard deviation of an array of numbers.
+返回数字数组的标准差。
 
-Use `Array.prototype.reduce()` to calculate the mean, variance and the sum of the variance of the values, the variance of the values, then
-determine the standard deviation.
-You can omit the second argument to get the sample standard deviation or set it to `true` to get the population standard deviation.
-
-## 翻译
-
-返回数字数组的标准偏差。
-
-使用Array.prototype.reduce（）计算平均值，方差和值方差之和，值方差，然后
-确定标准偏差。
-您可以省略第二个参数以获取样本标准偏差，或者将其设置为“ true”以获取总体标准偏差。
+- 使用 `Array.prototype.reduce()` 计算平均值、方差以及方差之和（值方差），然后确定标准差。
+- 第二个参数默认值为 `false` 获取样本标准差，设置为 `true` 以获取总体标准偏差
 
 ## 代码
 

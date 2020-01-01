@@ -1,14 +1,6 @@
 # sumBy
 
-Returns the sum of an array, after mapping each element to a value using the provided function.
-
-Use `Array.prototype.map()` to map each element to the value returned by `fn`, `Array.prototype.reduce()` to add each value to an accumulator, initialized with a value of `0`.
-
-## 翻译
-
-使用提供的函数将每个元素映射到一个值后，返回数组的总和。
-
-使用Array.prototype.map（）将每个元素映射到fn返回的值，使用Array.prototype.reduce（）将每个值添加到累加器，并以值0初始化。
+使用提供的函数计算对象中指定元素的总和。
 
 ## 代码
 

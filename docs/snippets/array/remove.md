@@ -9,8 +9,8 @@ The `func` is invoked with three arguments (`value, index, array`).
 
 从给定函数为其返回false的数组中删除元素。
 
-使用Array.prototype.filter（）查找返回真实值的数组元素，并使用Array.prototype.reduce（）使用Array.prototype.splice（）删除元素。
-“ func”由三个参数（“ value”，“ index”，“ array”）调用。
+使用Array.prototype.filter()查找返回真实值的数组元素，并使用Array.prototype.reduce()使用Array.prototype.splice()删除元素。
+“ func”由三个参数(“ value”，“ index”，“ array”)调用。
 
 ## 代码
 

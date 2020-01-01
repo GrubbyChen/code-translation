@@ -1,4 +1,4 @@
-# percentile
+# percentile（-）
 
 Uses the percentile formula to calculate how many numbers in the given array are less or equal to the given value.
 
@@ -8,7 +8,7 @@ Use `Array.prototype.reduce()` to calculate how many numbers are below the value
 
 使用百分比公式来计算给定数组中有多少个数字小于或等于给定值。
 
-使用Array.prototype.reduce（）来计算该值以下有多少个数字，以及相同值中有多少个数字，并应用百分位数公式。
+- 使用 `Array.prototype.reduce()` 来计算该值以下有多少个数字，以及相同值中有多少个数字，并应用百分位数公式。
 
 ## 代码
 

@@ -1,14 +1,8 @@
 # randomHexColorCode
 
-Generates a random hexadecimal color code.
-
-Use `Math.random` to generate a random 24-bit(6x4bits) hexadecimal number. Use bit shifting and then convert it to an hexadecimal String using `toString(16)`.
-
-## 翻译
-
 生成随机的十六进制颜色代码。
 
-使用Math.random生成一个随机的24位（6x4bits）十六进制数。使用位移，然后使用`toString（16）`将其转换为十六进制字符串。
+- 使用 `Math.random` 生成一个随机的 24 位（6x4bits）十六进制数。
 
 ## 代码
 

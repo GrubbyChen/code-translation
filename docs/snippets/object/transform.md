@@ -1,4 +1,4 @@
-# transform
+# transform（-）
 
 Applies a function against an accumulator and each key in the object (from left to right).
 
@@ -6,9 +6,9 @@ Use `Object.keys(obj)` to iterate over each key in the object, `Array.prototype.
 
 ## 翻译
 
-对一个累加器和对象中的每个键（从左到右）应用一个函数。
+对一个累加器和对象中的每个键(从左到右)应用一个函数。
 
-使用Object.keys（obj）遍历对象中的每个键，使用Array.prototype.reduce（）调用将指定函数应用于给定的累加器。
+使用Object.keys(obj)遍历对象中的每个键，使用Array.prototype.reduce()调用将指定函数应用于给定的累加器。
 
 ## 代码
 

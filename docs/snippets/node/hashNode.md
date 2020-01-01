@@ -1,14 +1,8 @@
 # hashNode
 
-Creates a hash for a value using the [SHA-256](https://en.wikipedia.org/wiki/SHA-2) algorithm. Returns a promise.
+使用 [SHA-256](https://en.wikipedia.org/wiki/SHA-2) 算法为给定值创建哈希值，返回 `promise`。
 
-Use `crypto` API to create a hash for the given value, `setTimeout` to prevent blocking on a long operation, and a `Promise` to give it a familiar interface.
-
-## 翻译
-
-使用[SHA-256]（https://en.wikipedia.org/wiki/SHA-2）算法为值创建哈希。返回承诺。
-
-使用“ crypto” API为给定值创建一个哈希值，使用“ setTimeout”防止长时间操作阻塞，并使用“ Promise”为其提供熟悉的界面。
+- 使用 `crypto` API 为给定值创建一个哈希值，使用 `setTimeout` 防止长时间操作阻塞。
 
 ## 代码
 

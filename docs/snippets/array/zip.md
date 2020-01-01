@@ -10,8 +10,8 @@ If lengths of the argument-arrays vary, `undefined` is used where no value could
 
 创建一个元素数组，根据原始数组中的位置进行分组。
 
-使用`Math.max.apply（）`获取参数中最长的数组。
-创建一个以该长度为返回值的数组，并使用带有映射功能的Array.from（）创建一个分组元素数组。
+使用`Math.max.apply()`获取参数中最长的数组。
+创建一个以该长度为返回值的数组，并使用带有映射功能的Array.from()创建一个分组元素数组。
 如果参数数组的长度不同，则在找不到值的地方使用“ undefined”。
 
 ## 代码

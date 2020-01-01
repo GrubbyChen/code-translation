@@ -1,14 +1,6 @@
 # mapNumRange
 
-Maps a number from one range to another range.
-
-Returns `num` mapped between `outMin`-`outMax` from `inMin`-`inMax`.
-
-## 翻译
-
 将数字从一个范围映射到另一范围。
-
-从`inMin`-`inMax`返回映射在`outMin`-`outMax`之间的`num`。
 
 ## 代码
 

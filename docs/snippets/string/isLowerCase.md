@@ -8,7 +8,7 @@ Convert the given string to lower case, using `String.toLowerCase()` and compare
 
 检查字符串是否为小写。
 
-使用String.toLowerCase（）将给定的字符串转换为小写，并将其与原始字符串进行比较。
+使用String.toLowerCase()将给定的字符串转换为小写，并将其与原始字符串进行比较。
 
 ## 代码
 

@@ -8,7 +8,7 @@ Use `Array.prototype.reduce()` to increment a counter each time you encounter th
 
 计算数组中某个值的出现次数。
 
-每次遇到数组中的特定值时，都可以使用Array.prototype.reduce（）来增加计数器。
+每次遇到数组中的特定值时，都可以使用Array.prototype.reduce()来增加计数器。
 
 ## 代码
 

@@ -1,4 +1,4 @@
-# negate
+# negate（不知道什么用）
 
 Negates a predicate function.
 
@@ -8,7 +8,7 @@ Take a predicate function and apply the not operator (`!`) to it with its argume
 
 否定谓词功能。
 
-采取一个谓词函数，并将not运算符（`！`）应用于其参数。
+采取一个谓词函数，并将not运算符(`！`)应用于其参数。
 
 ## 代码
 

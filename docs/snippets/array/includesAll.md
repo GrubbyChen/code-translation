@@ -8,7 +8,7 @@ Use `Array.prototype.every()` and `Array.prototype.includes()` to check if all e
 
 如果所有元素“值”都包含在“ arr”中，则返回“ true”，否则返回“ false”。
 
-使用“ Array.prototype.every（）”和“ Array.prototype.includes（）”来检查“值”的所有元素是否都包含在“ arr”中。
+使用“ Array.prototype.every()”和“ Array.prototype.includes()”来检查“值”的所有元素是否都包含在“ arr”中。
 
 ## 代码
 

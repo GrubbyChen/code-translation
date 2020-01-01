@@ -10,9 +10,9 @@ Use `Array.prototype.push()` to keep track of pulled values
 
 突变原始数组以滤除指定索引处的值。
 
-使用Array.prototype.filter（）和Array.prototype.includes（）提取不需要的值。
-使用“ Array.prototype.length = 0”通过将其传递的长度重置为零来改变传递的数组，并使用“ Array.prototype.push（）”仅使用提取的值重新填充它。
-使用Array.prototype.push（）来跟踪提取的值
+使用Array.prototype.filter()和Array.prototype.includes()提取不需要的值。
+使用“ Array.prototype.length = 0”通过将其传递的长度重置为零来改变传递的数组，并使用“ Array.prototype.push()”仅使用提取的值重新填充它。
+使用Array.prototype.push()来跟踪提取的值
 
 ## 代码
 

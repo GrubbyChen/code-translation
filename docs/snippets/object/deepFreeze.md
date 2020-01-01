@@ -1,14 +1,8 @@
 # deepFreeze
 
-Deep freezes an object.
-
-Calls `Object.freeze(obj)` recursively on all unfrozen properties of passed object that are `instanceof` object.
-
-## 翻译
-
 深度冻结对象。
 
-在传递的对象的所有未冻结属性（即instanceof对象）上递归调用Object.freeze（obj）。
+- 在传递的对象的所有未冻结属性（`instanceof` 对象）上递归调用 [Object.freeze(obj)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)。
 
 ## 代码
 

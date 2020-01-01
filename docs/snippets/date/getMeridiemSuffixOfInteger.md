@@ -1,14 +1,6 @@
 # getMeridiemSuffixOfInteger
 
-Converts an integer to a suffixed string, adding `am` or `pm` based on its value.
-
-Use the modulo operator (`%`) and conditional checks to transform an integer to a stringified 12-hour format with meridiem suffix.
-
-## 翻译
-
-将整数转换为带后缀的字符串，并根据其值添加“ am”或“ pm”。
-
-使用模运算符（`％`）和条件检查将整数转换为带有后缀meridiem的字符串化12小时格式。
+将整数转换为 12 小时格式字符串，并根据其值添加 `am` 或 `pm`。
 
 ## 代码
 
